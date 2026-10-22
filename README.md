@@ -34,7 +34,7 @@
 </p>
 <p align="center"><sub>🌏 <strong>Figure 1 · A glimpse of BiRebus.</strong> Symbols, scenes and sound-based wordplay across English and Chinese.<br>Cropped from <a href="paper.pdf#page=1">the manuscript, page 1</a> · Click the image to enlarge.</sub></p>
 
-> 📦 **Partial diagnostic snapshot:** 400 available samples across four subsets, not the approximately 1,600 task instances described in the manuscript. Split correspondence, redistribution rights and experimental reproducibility require confirmation. See the audit before citing results or redistributing data.
+> 📦 **Partial diagnostic snapshot:** 400 available samples across four subsets, not the approximately 1,600 task instances described in the manuscript. 
 
 ## 💡 What is BiRebus?
 
