@@ -144,3 +144,132 @@ async function load() {
   }
 }
 load();
+
+$('exampleReveal').addEventListener('click', () => {
+  const button = $('exampleReveal');
+  const revealed = button.getAttribute('aria-expanded') === 'true';
+  button.setAttribute('aria-expanded', String(!revealed));
+  button.replaceChildren(document.createTextNode(revealed ? '?' : 'legend'), element('small', '', revealed ? 'Click to reveal' : 'Click to hide'));
+  $('exampleExplanation').textContent = revealed
+    ? 'Look at the clues. Say them aloud. Find the word.'
+    : 'leg + end → legend. A change in sound turns two clues into one expression.';
+});
+
+document.querySelectorAll('[data-jump-subset]').forEach(link => link.addEventListener('click', () => {
+  state.subset = link.dataset.jumpSubset;
+  $('search').value = '';
+  $('imageFilter').value = 'all';
+  resetPage();
+}));
+
+$('copyCitation').addEventListener('click', async () => {
+  const text = $('citationText').textContent;
+  try {
+    if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+    await navigator.clipboard.writeText(text);
+    $('copyStatus').textContent = '✓ Citation copied. Please also identify the data snapshot revision you use.';
+  } catch {
+    const range = document.createRange();
+    range.selectNodeContents($('citationText'));
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    $('copyStatus').textContent = 'Citation selected. Press Ctrl/Cmd+C to copy it.';
+  }
+});
+
+const resultState = { mode: 'paper', paper: null, audit: null };
+const formatPercent = value => Number(value.toFixed(2)).toString();
+function resultSeries() {
+  if (resultState.mode === 'paper') {
+    const { aggregate_direct: direct, aggregate_vgpi: structured } = resultState.paper;
+    if (![direct, structured].every(row => Array.isArray(row) && row.length === 5 && row.every(Number.isFinite))) {
+      throw new Error('Paper result table is incomplete.');
+    }
+    return { direct, structured, models: 4 };
+  }
+  const cells = resultState.audit.cells;
+  const models = [...new Set(cells.filter(c => c.strategy === 'direct').map(c => c.model_label))];
+  if (!models.length) throw new Error('No audited models found.');
+  const totals = { direct: { correct: 0, expected: 0 }, vgpi: { correct: 0, expected: 0 } };
+  const rows = { direct: [], vgpi: [] };
+  for (const strategy of ['direct', 'vgpi']) {
+    for (const [subset] of SUBSETS) {
+      const matching = models.map(model => cells.find(c => c.strategy === strategy && c.subset === subset && c.model_label === model));
+      if (matching.some(c => !c || !Number.isFinite(c.correct) || !Number.isFinite(c.expected) || c.expected <= 0)) {
+        throw new Error('The local result audit is incomplete.');
+      }
+      const correct = matching.reduce((n, c) => n + c.correct, 0);
+      const expected = matching.reduce((n, c) => n + c.expected, 0);
+      rows[strategy].push(100 * correct / expected);
+      totals[strategy].correct += correct;
+      totals[strategy].expected += expected;
+    }
+    rows[strategy].push(100 * totals[strategy].correct / totals[strategy].expected);
+  }
+  return { direct: rows.direct, structured: rows.vgpi, models: models.length };
+}
+function renderResults() {
+  if (!resultState.paper || !resultState.audit) return;
+  try {
+    const { direct, structured, models } = resultSeries();
+    $('resultCharts').replaceChildren(...SUBSETS.map(([key, label], index) => {
+      const before = direct[index], after = structured[index];
+      const delta = after - before;
+      const row = element('div', 'chart-row');
+      const name = element('span', 'chart-label', label);
+      name.append(element('small', '', key));
+      const pair = element('div', 'bar-pair');
+      pair.setAttribute('role', 'img');
+      pair.setAttribute('aria-label', `${label}: Direct ${formatPercent(before)}%, VG plus PI ${formatPercent(after)}%`);
+      [before, after].forEach((value, i) => {
+        const track = element('div', 'bar-track');
+        track.setAttribute('aria-hidden', 'true');
+        const fill = element('div', `bar-fill${i ? ' structured' : ''}`);
+        fill.style.setProperty('--score', `${Math.min(100, Math.max(0, value))}%`);
+        track.append(fill, element('span', 'bar-value', `${formatPercent(value)}%`));
+        pair.append(track);
+      });
+      row.append(name, pair, element('span', `chart-delta${delta < 0 ? ' negative' : ''}`, `${delta > 0 ? '+' : ''}${formatPercent(delta)}`));
+      return row;
+    }));
+    const delta = structured[4] - direct[4];
+    $('resultGain').replaceChildren(document.createTextNode(`${delta > 0 ? '+' : ''}${formatPercent(delta)}`), element('span', '', ' pp'));
+    const paper = resultState.mode === 'paper';
+    $('resultSource').textContent = paper ? 'MANUSCRIPT · TABLE 2' : 'LOCAL AUDIT · FIXED DENOMINATOR';
+    $('resultHeadline').textContent = paper ? 'Reported aggregate change' : 'Recorded end-to-end change';
+    $('resultSummary').textContent = `${formatPercent(direct[4])}% → ${formatPercent(structured[4])}% ${paper ? 'with structured prompting, as printed in the paper.' : 'across all expected model–question pairs.'}`;
+    $('resultCaution').textContent = paper
+      ? 'Manuscript-reported values; not an independent reproduction.'
+      : 'Missing, failed and empty outputs receive no credit. Historical settings differ; this is not a controlled rerun.';
+    $('resultStatus').textContent = paper
+      ? 'Source: paper.pdf, Table 2. Rounded percentages transcribed as printed. Bar pairs: Direct / VG+PI; right column: percentage-point change.'
+      : `Source: results/local_audit.json. ${models} models × 100 expected items per subset; scores are not conditioned on successful responses. Right column: percentage-point change.`;
+    document.querySelectorAll('[data-result-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.resultMode === resultState.mode)));
+  } catch (error) {
+    $('resultCharts').textContent = 'Result figures are unavailable. Please consult the linked result artifacts.';
+    $('resultGain').textContent = '—';
+    $('resultSummary').textContent = '';
+    $('resultStatus').textContent = error.message;
+  }
+}
+document.querySelectorAll('[data-result-mode]').forEach(button => button.addEventListener('click', () => {
+  resultState.mode = button.dataset.resultMode;
+  renderResults();
+}));
+async function loadResults() {
+  try {
+    [resultState.paper, resultState.audit] = await Promise.all(['paper_tables', 'local_audit'].map(async name => {
+      const response = await fetch(`results/${name}.json`);
+      if (!response.ok) throw new Error(`Result artifact ${name}: HTTP ${response.status}`);
+      return response.json();
+    }));
+    renderResults();
+  } catch (error) {
+    $('resultCharts').textContent = 'Unable to load results. Read the manuscript or result notes using the links above.';
+    $('resultGain').textContent = '—';
+    $('resultSummary').textContent = '';
+    $('resultStatus').textContent = error.message;
+  }
+}
+loadResults();

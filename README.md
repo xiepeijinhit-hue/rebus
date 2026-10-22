@@ -7,9 +7,9 @@
 
 Harbin Institute of Technology, ITNLP Lab · Tencent, Platform and Content Group, QQAI
 
-[Paper](paper.pdf) · [Interactive explorer](index.html) · [Method](docs/METHOD.md) · [Results](docs/RESULTS.md) · [Data audit](docs/DATA_AUDIT.md) · [Release checklist](docs/RELEASE_CHECKLIST.md)
+[🚀 Project website](https://xiepeijinhit-hue.github.io/rebus/) · [📄 Paper](paper.pdf) · [🧩 Data explorer](https://xiepeijinhit-hue.github.io/rebus/#explore) · [Method](docs/METHOD.md) · [Results](docs/RESULTS.md) · [Data audit](docs/DATA_AUDIT.md) · [Release checklist](docs/RELEASE_CHECKLIST.md)
 
-> **Release status: local prepublication snapshot.** This directory contains 400 available diagnostic samples, not the approximately 1,600 task instances described in the manuscript. It has not been uploaded. The exact correspondence to the paper's human-reviewed split, data redistribution rights, and experimental reproducibility require author confirmation. See the audit before citing results or redistributing data.
+> **Release status: partial diagnostic snapshot.** This repository contains 400 available diagnostic samples, not the approximately 1,600 task instances described in the manuscript. The exact correspondence to the paper's human-reviewed split, data redistribution rights, and experimental reproducibility require author confirmation. See the audit before citing results or redistributing data.
 
 ## What is BiRebus?
 
@@ -51,9 +51,9 @@ No Node build, cloud account, model API or server dependencies are needed. From 
 python3 -m http.server 3010 --bind 127.0.0.1
 ```
 
-Open `http://localhost:3010/`. The static explorer supports all four subsets, clue/ID search, image-count filters, pagination, image zoom, per-card answer reveal and filtered JSON download. It works under a repository subpath such as `/rebus/` because all asset URLs are relative.
+Open `http://localhost:3010/`, or visit the [🚀 project website](https://xiepeijinhit-hue.github.io/rebus/). The project page includes an emoji wordplay demo, paper and author information, the three-stage method, result charts with separate manuscript/audit views, and copyable citation metadata. The data explorer supports all four subsets, clue/ID search, image-count filters, pagination, image zoom, per-card answer reveal and filtered JSON download.
 
-The page is read-only and collects no responses. Answers are present in downloadable JSON; the reveal button is a convenience, **not secure exam protection**. Do not use preview images for benchmark scores. GitHub Pages can serve this directory after the owner completes the publication checklist; nothing has been deployed automatically.
+The page is read-only and collects no responses. Answers are present in downloadable JSON; the reveal button is a convenience, **not secure exam protection**. Do not use preview images for benchmark scores. GitHub Pages serves the repository root from `main`; `.nojekyll` preserves the static assets unchanged, and relative paths support `/rebus/`. Future pushes to `main` update the site automatically. Publishing the page does not resolve the rights or experimental limitations documented in the release checklist.
 
 ## Load and score data
 
