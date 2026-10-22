@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BiRebus: a Chinese–English benchmark for visual homophone reasoning. Browse a 400-item local diagnostic snapshot.">
+  <title>BiRebus · Seeing Sounds, Missing Meanings</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="nav"><a class="brand" href="./">Bi<span>Rebus</span><small>RESEARCH DATA EXPLORER</small></a><nav aria-label="Main navigation"><a href="paper.pdf">Read the paper ↗</a><a href="README.md">Repository guide</a></nav></header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">VISION → LANGUAGE → SOUND → MEANING</p><h1>Seeing sounds.<br><em>Finding meaning.</em></h1><p class="intro">A picture is not always what it means. Explore bilingual rebuses where objects, spatial relations and sounds come together to form an expression.</p><div class="hero-actions"><a class="primary-link" href="#explore">Explore the data ↓</a><a href="docs/METHOD.md">How structured reasoning works →</a></div></div>
+      <aside class="method"><span class="eyebrow">STRUCTURED REBUS REASONING</span><ol><li><span>01</span><div><h2>Ground the clues</h2><p>Essential objects, attributes, counts, actions and relations.</p></div></li><li><span>02</span><div><h2>Imagine the sounds</h2><p>Alternative names, homophones and near-homophones.</p></div></li><li><span>03</span><div><h2>Compose & verify</h2><p>Choose an expression that explains the critical clues.</p></div></li></ol></aside>
+    </section>
+    <section class="metrics" aria-label="Released data"><div><strong id="sampleCount">400</strong><span>released samples</span></div><div><strong>4</strong><span>language × format subsets</span></div><div><strong id="imageCount">300</strong><span>paired image assets</span></div><div><strong>2</strong><span>answer languages</span></div></section>
+    <p class="notice"><b>Local diagnostic snapshot, not a verified full release.</b> Four subsets are available; the paper describes approximately 1,600 task instances. Selection and metric discrepancies are documented in <a href="docs/DATA_AUDIT.md">the release audit</a>. Images here are reduced-size previews. Rights clearance is pending.</p>
+    <section id="explore" class="explorer">
+      <div class="section-heading"><div><p class="eyebrow">TRY THE PUZZLES</p><h2>Data explorer <span lang="zh">数据浏览</span></h2></div><button id="download" class="secondary" disabled>Download filtered JSON</button></div>
+      <div id="tabs" class="tabs" role="group" aria-label="Dataset subset"></div>
+      <div class="filters"><label class="search">Search clues or ID <span lang="zh">搜索线索或编号</span><input id="search" type="search" placeholder="e.g. en_image_1, tree, 000002" autocomplete="off"></label><label>Images<select id="imageFilter"><option value="all">All image counts</option><option value="0">Symbols only</option><option value="1">Single image</option><option value="2">Two images</option></select></label><label>Per page<select id="pageSize"><option>12</option><option>24</option><option>48</option></select></label><label class="check"><input id="showAnswers" type="checkbox"> Reveal all answers</label></div>
+      <div class="result-bar"><p id="status" role="status" aria-live="polite">Loading local data…</p><button id="reset" class="text-button">Reset filters</button></div>
+      <div id="error" role="alert" hidden></div><div id="cards" class="cards"></div><div id="empty" class="empty" hidden>No samples match these filters. Try a different clue or subset.</div>
+      <nav class="pager" aria-label="Pagination"><button id="prev" class="secondary">← Previous</button><span id="pageInfo" aria-live="polite"></span><button id="next" class="secondary">Next →</button></nav>
+    </section>
+    <footer><div><b>BiRebus</b><p>Seeing Sounds, Missing Meanings: A Chinese–English Bilingual Benchmark for Visual Homophone Reasoning</p></div><p>This is a read-only, client-side demonstration.<br>No sign-in, uploads, answer collection or model API calls.<br><a href="docs/RESULTS.md">Paper results & local evidence</a> · <a href="docs/RELEASE_CHECKLIST.md">Release checklist</a></p></footer>
+  </main>
+  <dialog id="zoom"><button id="closeZoom" class="secondary">Close / 关闭</button><img id="zoomImage" alt=""><p id="zoomCaption"></p></dialog>
+</body>
+</html>

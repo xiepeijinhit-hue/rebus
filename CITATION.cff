@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this snapshot, cite the supplied BiRebus manuscript and specify the snapshot version and release-manifest checksum. Publication venue/date and DOI are not established here."
+type: article
+title: "Seeing Sounds, Missing Meanings: A Chinese–English Bilingual Benchmark for Visual Homophone Reasoning"
+authors:
+  - family-names: Xie
+    given-names: Peijin
+  - family-names: Zhao
+    given-names: Jiayi
+  - family-names: Wang
+    given-names: Xiaoxue
+  - family-names: Xu
+    given-names: Zhen
+  - family-names: Wang
+    given-names: Baoxun
+  - family-names: Liu
+    given-names: Bingquan
+repository-code: "https://github.com/xiepeijinhit-hue/rebus"
+keywords:
+  - rebus
+  - homophones
+  - visual reasoning
+  - bilingual benchmark

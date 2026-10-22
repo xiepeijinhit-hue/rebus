@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "name": "BiRebus local diagnostic snapshot",
+  "created_at": "2026-10-22T05:40:44.815674+00:00",
+  "split": "test",
+  "status": "local_prepublication_snapshot",
+  "license_status": "unverified",
+  "paper_alignment": "Paper describes a reviewed split; independent verification of that exact split is unavailable.",
+  "subsets": [
+    {
+      "name": "en_emoji",
+      "language": "en",
+      "task": "emoji",
+      "rows": 100,
+      "images": 0,
+      "source": "benchmark_100/en_emoji.json",
+      "source_sha256": "9d01c44adea03f205807d66c1ea075a7d241d72629557bed1171333507559b89",
+      "selection_status_counts": {
+        "empty_response": 95,
+        "nonempty_incorrect": 5
+      },
+      "parquet": "data/en_emoji/test-00000-of-00001.parquet",
+      "parquet_sha256": "b0a7af77c2d486a00d8537cb2e75618861d573977b95d30a0dfd9a2aca77e608"
+    },
+    {
+      "name": "en_image",
+      "language": "en",
+      "task": "pictorial",
+      "rows": 100,
+      "images": 200,
+      "source": "benchmark_100/en_image.json",
+      "source_sha256": "3a5b7aa72db63a94ec1ad8ca23916732608157f64c64575a7097ae8bbc0183ac",
+      "selection_status_counts": {
+        "empty_response": 85,
+        "nonempty_incorrect": 15
+      },
+      "parquet": "data/en_image/test-00000-of-00001.parquet",
+      "parquet_sha256": "c60b3c0d3fd6ff51e712623db893e88d96ba513461832da89fbc9dd83d039319"
+    },
+    {
+      "name": "zh_emoji",
+      "language": "zh",
+      "task": "emoji_idiom",
+      "rows": 100,
+      "images": 0,
+      "source": "benchmark_100/zh_emoji.json",
+      "source_sha256": "83bdea885d4308d58a99ecb7b33545ebf3ad1b467bdfb2c8494ede91b42351a8",
+      "selection_status_counts": {
+        "empty_response": 95,
+        "nonempty_incorrect": 5
+      },
+      "parquet": "data/zh_emoji/test-00000-of-00001.parquet",
+      "parquet_sha256": "d351f17424170c011e8cc6c56528d2ceb4a9af06f477c4051bbfd4382de240db"
+    },
+    {
+      "name": "zh_image",
+      "language": "zh",
+      "task": "pictorial",
+      "rows": 100,
+      "images": 100,
+      "source": "benchmark_100/zh_image.json",
+      "source_sha256": "9e42a01ad0cb9293a087d30b702c76cbf7233e85671f4c8384796871c75b7029",
+      "selection_status_counts": {
+        "empty_response": 99,
+        "nonempty_incorrect": 1
+      },
+      "parquet": "data/zh_image/test-00000-of-00001.parquet",
+      "parquet_sha256": "1026c57e47e20cd1753e0c9188eaca164be21533b8a6a58a88b75134ea764767"
+    }
+  ],
+  "excluded": [
+    "credentials",
+    "user answers",
+    "annotator identities",
+    "internal API configuration",
+    "raw model traces"
+  ],
+  "total_rows": 400,
+  "total_images": 300
+}

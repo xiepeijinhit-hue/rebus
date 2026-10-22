@@ -1,0 +1,37 @@
+{
+  "technical_validation": "passed",
+  "rows": 400,
+  "images": 300,
+  "subsets": [
+    {
+      "subset": "en_emoji",
+      "rows": 100,
+      "decoded_images": 0,
+      "hf_image_features": true
+    },
+    {
+      "subset": "en_image",
+      "rows": 100,
+      "decoded_images": 200,
+      "hf_image_features": true
+    },
+    {
+      "subset": "zh_emoji",
+      "rows": 100,
+      "decoded_images": 0,
+      "hf_image_features": true
+    },
+    {
+      "subset": "zh_image",
+      "rows": 100,
+      "decoded_images": 100,
+      "hf_image_features": true
+    }
+  ],
+  "not_certified": [
+    "license/redistribution rights",
+    "human reference validation",
+    "paper split identity",
+    "remote Dataset Viewer build"
+  ]
+}

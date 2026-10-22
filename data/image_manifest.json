@@ -1,0 +1,3602 @@
+[
+  {
+    "uid": "en_image_1",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__1_fig1.png",
+    "source_sha256": "bf1431d9d8bf67d30de1dcd138535b4492c85bddecefd28d2ad27d1a3f8c1a13",
+    "released_png_sha256": "a665e2ef6dcddafb6643ecf674d4123b4783aa15c025e0113c9a7fe8d0df012d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_1_1.webp"
+  },
+  {
+    "uid": "en_image_1",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__1_fig2.png",
+    "source_sha256": "4c866b3215e677e17619449d3a2ab0d02cbd2f5cd26f06f3791b460e257395a7",
+    "released_png_sha256": "e943d0da23265d91247bdbdfdf48a2131668f8bc11f364780b7aba22951aa348",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_1_2.webp"
+  },
+  {
+    "uid": "en_image_8",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__8_fig1.png",
+    "source_sha256": "756f134432ed8e84dd9c0ead563e9fc545002df6867e720ce347b4efa89a8515",
+    "released_png_sha256": "2b7f04aae141cae604eddff2f0160e4d012820f5f08b6638cb92864dfd457e5e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_8_1.webp"
+  },
+  {
+    "uid": "en_image_8",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__8_fig2.png",
+    "source_sha256": "2d84cc7302356ac78c6fc8e1007ec55fcc41582c3eeb9f170c5aba14823d86cb",
+    "released_png_sha256": "3e76712ea1a32a578d295839f1c128d6cc2944da00cd1b6f1762ef758be2401e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_8_2.webp"
+  },
+  {
+    "uid": "en_image_9",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__9_fig1.png",
+    "source_sha256": "a897b196ccd32a9d3cf28b83feee02b840e28f90720e06ee74b5a82036256c71",
+    "released_png_sha256": "4eabfba66e462f22ffc697cd3a56222abc65eb7a44febb3d99c84284f318acd4",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_9_1.webp"
+  },
+  {
+    "uid": "en_image_9",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__9_fig2.png",
+    "source_sha256": "f63ae38b022e196ad60471fc43d0b72143f7159534c930b5d15c2bc677ebb9e2",
+    "released_png_sha256": "acc8967c06e8a515aa5663f0eb9ca2e40a2eba992daabdb173fc861e66ef485d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_9_2.webp"
+  },
+  {
+    "uid": "en_image_13",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__13_fig1.png",
+    "source_sha256": "fb2b57c678a995d6436d77f54d3a1ee661d3943604962ade45e14b330a87ef4d",
+    "released_png_sha256": "9e644c1ebedc17cefc21e9b352696f20731c433801583411fa5f577132ad45c6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_13_1.webp"
+  },
+  {
+    "uid": "en_image_13",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__13_fig2.png",
+    "source_sha256": "5e98c264c3a3edcbcc701cb2fb172ba41318cce3f9380c3ef805a4954a15a4c0",
+    "released_png_sha256": "3ade46da657bf3f26b9e4a9bb32f39fc019a959f00b1a33dcf74af8d4851efc0",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_13_2.webp"
+  },
+  {
+    "uid": "en_image_21",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__21_fig1.png",
+    "source_sha256": "55ca89f4dcc6ca6c22d0d657ece2ad012e60fe52045852e91db61d76d264f1d1",
+    "released_png_sha256": "8f9f2348b34e5dafd9151f6e9d28b627399c1a75bf0b173ab8b5b4da3f737d82",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_21_1.webp"
+  },
+  {
+    "uid": "en_image_21",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__21_fig2.png",
+    "source_sha256": "c1fc24324924a1366a7f02084acdfdf4556f49d4418432e6911520e925d6be46",
+    "released_png_sha256": "bfe4125f006f5bf1e5633a2d1f7e24494d25a72b688011cd388f36fa65816388",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_21_2.webp"
+  },
+  {
+    "uid": "en_image_22",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__22_fig1.png",
+    "source_sha256": "64b979a5f550d8980c4b9fc5566cc432ad3c7e612a9da3f9f236c09e661292c2",
+    "released_png_sha256": "ebaee5e8fc5ed3ffcd4462766437e67cb969cb8129f81154285fc39af759ce68",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_22_1.webp"
+  },
+  {
+    "uid": "en_image_22",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__22_fig2.png",
+    "source_sha256": "6fb9c64e6b24469e05b22aec278a0d72a8ba1da108218592fb5a2aa965d930bc",
+    "released_png_sha256": "d42ad794a27d8bda20fdf61245c011837ed40fdea4fa3299ee232f42082cd2d2",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_22_2.webp"
+  },
+  {
+    "uid": "en_image_31",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__31_fig1.png",
+    "source_sha256": "3ba7b01b65a947cb65845511958e7ad2e78b66a8a1b43c33af1f71e33e29d41b",
+    "released_png_sha256": "c60eb6c76569a93eb5d022b1b5d222b87d6ed641b76585a6a257f0ad294440fe",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_31_1.webp"
+  },
+  {
+    "uid": "en_image_31",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__31_fig2.png",
+    "source_sha256": "52feb6b7bd714317ebf29ae4f40e3199ed60780dfdea33baeb815b28731d1f76",
+    "released_png_sha256": "059c5708ea41478f3f3b13addb73d73874700e667d69c98e09a9fb8d6a18b55f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_31_2.webp"
+  },
+  {
+    "uid": "en_image_32",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__32_fig1.png",
+    "source_sha256": "6bd7636ef1be5ae6fd78cfc7c69556e6b245fb003de68748787c8201c9016ef2",
+    "released_png_sha256": "8fb1cac73c6af546d1e1319a979314723cd42b5552b3ccf91cde0e2ce9331f09",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_32_1.webp"
+  },
+  {
+    "uid": "en_image_32",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__32_fig2.png",
+    "source_sha256": "0029189b2e9293c83331e29ef2c5d0c7421cd8df88da3ebc9197a4905da716f0",
+    "released_png_sha256": "a45b3f3f2a3c02afdb553ead80063782002c522c421fd26df7f2d5f2eb418365",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_32_2.webp"
+  },
+  {
+    "uid": "en_image_34",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__34_fig1.png",
+    "source_sha256": "6ad628e341f6212de98ceb234e36f1742723c6c4a6205f82706831a58f4e1f16",
+    "released_png_sha256": "ee4abafaabb466e6f4b2a4e055fc1e1f2a503f077f718be6947cb39e9e4e252b",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_34_1.webp"
+  },
+  {
+    "uid": "en_image_34",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__34_fig2.png",
+    "source_sha256": "db5171d17225c76d92671ca8e29b803fb885afecfc1f1fefa879c9bd38bdf059",
+    "released_png_sha256": "ad8575d317d379c0f065f8f861d3e85b0fef6113efe0605a11c2ba02bd54a162",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_34_2.webp"
+  },
+  {
+    "uid": "en_image_35",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__35_fig1.png",
+    "source_sha256": "a4d22f8e44db8c7ebea249038029550d22d7ce265e2fd559225206612afffbc7",
+    "released_png_sha256": "0d6a4e0db3e1bd09bb5c1ce7fd5686719aacfc62db4eb9ad136048c0d0da83e7",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_35_1.webp"
+  },
+  {
+    "uid": "en_image_35",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__35_fig2.png",
+    "source_sha256": "63d76a10f7a3f084c14f86c62b802d408cb58b854bfca82f1e0f8c9097e34737",
+    "released_png_sha256": "c913832e513953ac71b34018b2d63154c9a9611e7c3a72d561aea672c5a891a2",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_35_2.webp"
+  },
+  {
+    "uid": "en_image_37",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__37_fig1.png",
+    "source_sha256": "c8e7c728d44c64b2ed7335a9075e794eafc4f9bfb6482177478905e3d72dab73",
+    "released_png_sha256": "1d8944390dee422e747a7a9ef434ab20ff55cc48b51c2b6afd4557c975f6b266",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_37_1.webp"
+  },
+  {
+    "uid": "en_image_37",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__37_fig2.png",
+    "source_sha256": "b8918fb8a8d32ae60e9255eb54d031c0f9de6c4d5ae9f85608eccfa236b82ff2",
+    "released_png_sha256": "2453a02c313bbf6bfbb3cb1d1be96ec85b9e1fd29743b85215b8be58e8505709",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_37_2.webp"
+  },
+  {
+    "uid": "en_image_38",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__38_fig1.png",
+    "source_sha256": "3915c386e9522ccb437e24f622f848c4812854eae8ee4106dd38ead2af1d18ba",
+    "released_png_sha256": "76e0f240a5866e39a643b40fdb40bb62f276aa7b34174b965a00e3c73f34bc01",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_38_1.webp"
+  },
+  {
+    "uid": "en_image_38",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__38_fig2.png",
+    "source_sha256": "2ac54842c0c316d03e9b9c13437318ede6e17b874eb5530997a704f25d5078a6",
+    "released_png_sha256": "de357916754afb1257287a41fd4ecd32a756cdc29d18b0e5d92a4e35111a3d06",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_38_2.webp"
+  },
+  {
+    "uid": "en_image_50",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__50_fig1.png",
+    "source_sha256": "355a771710eb04605b2d71eb705f11f7a5feaeb8fd0da75c99d94b17475bcade",
+    "released_png_sha256": "2ad56171702c5f7305b350d4eec27e34453bcffe457d9621a74e4113512c6650",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_50_1.webp"
+  },
+  {
+    "uid": "en_image_50",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__50_fig2.png",
+    "source_sha256": "e270c75b17b961e2c957e9df4c62beb49239e7ec9548935e46cbc7e4594b7d57",
+    "released_png_sha256": "67a758e51a4335cb24069110019114bc185e137cbaf482869a3274b6beb48ca5",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_50_2.webp"
+  },
+  {
+    "uid": "en_image_51",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__51_fig1.png",
+    "source_sha256": "e270c75b17b961e2c957e9df4c62beb49239e7ec9548935e46cbc7e4594b7d57",
+    "released_png_sha256": "67a758e51a4335cb24069110019114bc185e137cbaf482869a3274b6beb48ca5",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_51_1.webp"
+  },
+  {
+    "uid": "en_image_51",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__51_fig2.png",
+    "source_sha256": "cf045ae9d28fedccfc81cc78ed9dc82d6207211632f127ef904995f366d28b79",
+    "released_png_sha256": "aaaf4e11dd2e6d356fad4b66c60be9c981ddce3c2734436c0739e24ed284edd9",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_51_2.webp"
+  },
+  {
+    "uid": "en_image_74",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__74_fig1.png",
+    "source_sha256": "afd4ac4f67bd567b96a900aa56c007acc32911fc65d16da830c2e6c87e126605",
+    "released_png_sha256": "e6120f5e98c89e5288e9fbd98e4810b24d864a5099219c0e2cd0e6dc786bd1be",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_74_1.webp"
+  },
+  {
+    "uid": "en_image_74",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__74_fig2.png",
+    "source_sha256": "16b9368a583cc885eb25dcaf473afa0fdc37ddb925853143fdd67b366625eda2",
+    "released_png_sha256": "4bfb8fcf905a643c644310885f9a1cd4f24dae2544826eb3e14cc1811a78e17b",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_74_2.webp"
+  },
+  {
+    "uid": "en_image_80",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__80_fig1.png",
+    "source_sha256": "db7d8eb5435e776ce068ba30915be05bb11ee7aecf9994493f5c40804b584f18",
+    "released_png_sha256": "7a5371f910fde5059d40f290d6116b13ab77fc8c13efc188361b57ba6fc6f8df",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_80_1.webp"
+  },
+  {
+    "uid": "en_image_80",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__80_fig2.png",
+    "source_sha256": "089d617ff3876cab004a1fb19341df51bc6e4f7934b7e1f18edc9882e1f5146a",
+    "released_png_sha256": "df0de53de375fba95f7e43d93d8ffca364774e23ca4daeea68cecb7a9305ceba",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_80_2.webp"
+  },
+  {
+    "uid": "en_image_85",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__85_fig1.png",
+    "source_sha256": "74891d248587aa2dab04f35543dc319067923bcad162b30dbf788b4ecfff4c38",
+    "released_png_sha256": "0c9eaf83ee52831415c2f20b58ca2a3b0a100f53f1cad752fc8d45b5d12a806f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_85_1.webp"
+  },
+  {
+    "uid": "en_image_85",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__85_fig2.png",
+    "source_sha256": "11b44122ef4b1c722a30acda39cd7846dbccacd5b97928a9c1d6c00ed37cd5a0",
+    "released_png_sha256": "fc89df1c7f008e74c788439424d71dcc3640912ae87d752502354dbdd0345169",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_85_2.webp"
+  },
+  {
+    "uid": "en_image_86",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__86_fig1.png",
+    "source_sha256": "c744777af2640daca180746cd440bf676c84e6acf2e536365d4f7d673dd2c9d1",
+    "released_png_sha256": "3e4fa3129ca3808409500d7a05b99d18216292e72cbfc43aab6abf5cf13f6d54",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_86_1.webp"
+  },
+  {
+    "uid": "en_image_86",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__86_fig2.png",
+    "source_sha256": "9ea61038ae420729365f26e0512c901418651436183c8b69383429825a9f4601",
+    "released_png_sha256": "9733fd3778c0f7c79a81cc50f2c8f52dbb938180906320fc832b39f71096aee7",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_86_2.webp"
+  },
+  {
+    "uid": "en_image_93",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__93_fig1.png",
+    "source_sha256": "427fe62d3a10eeefae55c00bb8bf741e380a0c8e29908c71d7e274540b4c469c",
+    "released_png_sha256": "b5dab10ac0caf5f5b7f08a7949b94dca8496328d2d0c033816f302083a5f84ea",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_93_1.webp"
+  },
+  {
+    "uid": "en_image_93",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__93_fig2.png",
+    "source_sha256": "1943de20e3cbbc6dd237d3d36b109da76c2bf8572571220d0f13462e80d8041e",
+    "released_png_sha256": "7e44c1dbfb1b6e154310fa4c1934daa049207d7865c00c95c5fb7fe2505d54dd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_93_2.webp"
+  },
+  {
+    "uid": "en_image_94",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__94_fig1.png",
+    "source_sha256": "e60b0c107eaac3821d606defde520207ff5f4da96cae38c4de82ff6bb867b094",
+    "released_png_sha256": "500055a7732c4d83960b65737ea4204b1612730d9c932da9c10b81664c7a7649",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_94_1.webp"
+  },
+  {
+    "uid": "en_image_94",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__94_fig2.png",
+    "source_sha256": "322c0903710a21048a9db0f7591d66a68f4a59d69e2dfa4538c6cd09cdc283e8",
+    "released_png_sha256": "f72b548390f4e68880d69267d54000c1847d6d5d99822b726b1cbd68d8804134",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_94_2.webp"
+  },
+  {
+    "uid": "en_image_96",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__96_fig1.png",
+    "source_sha256": "70b7b342edc0859f21b6c3dde608d1f19017005b5bd2971460b76604669ce5be",
+    "released_png_sha256": "f75491e0ccf035d7b07d81ba110ae29b2aa23dd4ec2140f8efb1952eb204e31a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_96_1.webp"
+  },
+  {
+    "uid": "en_image_96",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__96_fig2.png",
+    "source_sha256": "ad2b4071ca116d8e5203ff8e35a1e5a337a5e755a0c7326044163d69402fbd8f",
+    "released_png_sha256": "8e601dd7c7a204afc4958a2dfb6314b4ff446c06fb1f0a8064285237518df1af",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_96_2.webp"
+  },
+  {
+    "uid": "en_image_99",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__99_fig1.png",
+    "source_sha256": "9bdbdd00329a10a9d4b4f437b3c249572e97e0a787201637c81dcb1ce7a4a4df",
+    "released_png_sha256": "e3fed18aadcc5ca5050f55bf9c9f8d24b9b53d4d90d052d82f951a2a3ab93e8d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_99_1.webp"
+  },
+  {
+    "uid": "en_image_99",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__99_fig2.png",
+    "source_sha256": "6a95305c59332a22742391731f892b495bfdaecfbf041d74732df1273e66ec40",
+    "released_png_sha256": "fe44a38fbb845fe3fa3db828e5216a20787474ec0aa357611920819b92815671",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_99_2.webp"
+  },
+  {
+    "uid": "en_image_121",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__121_fig1.png",
+    "source_sha256": "03c7bba1870945e7576ab9b3ec5df8debe16cb9308db8b71c82e8b087f5c5c06",
+    "released_png_sha256": "8bf133aac99d5bb48e8b2f2ee390142d2c2a3679cb8fb227726f203b615dde21",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_121_1.webp"
+  },
+  {
+    "uid": "en_image_121",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__121_fig2.png",
+    "source_sha256": "967bca54122b70655dfb00fa0c2ae0da4dbb73a34ebffb1adb9decb5cf2aff86",
+    "released_png_sha256": "11266c1b2d7f7e49029b705ce30ed28f5ca69f760f5c5b540ace44d137338fdb",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_121_2.webp"
+  },
+  {
+    "uid": "en_image_122",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__122_fig1.png",
+    "source_sha256": "ce55d7cc8f021f07b44d17f71b9207ef4d3f0be173bbb6b3bbc0c401882a28b7",
+    "released_png_sha256": "93bc1d79c0f862c825b5f8e596b59e2dec0c04434d9e7af4b41c9f760524b5ba",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_122_1.webp"
+  },
+  {
+    "uid": "en_image_122",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__122_fig2.png",
+    "source_sha256": "d513740a3bdd4c9a02eefbedcc02e43882ee5d2fbd0289b2309daaaf9d3d0b02",
+    "released_png_sha256": "c9273be48c0da077382a7920988281a0072af21214048130097dc2e201bff77b",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_122_2.webp"
+  },
+  {
+    "uid": "en_image_127",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__127_fig1.png",
+    "source_sha256": "41c9f04f666490919905202b2a60b94a2b0b661d8c9b22c08388c2ab50472434",
+    "released_png_sha256": "2c15306731bdeca60c14f1d1d7cf22edca597eb8f07b31594ecb9f51de637e56",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_127_1.webp"
+  },
+  {
+    "uid": "en_image_127",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__127_fig2.png",
+    "source_sha256": "ce5b03c8f8b2567b5831efdc321b3ed3b56f1cb55e7be2334ff0e3305ce82305",
+    "released_png_sha256": "50dc67da344e57cfc56dfec9f8cc5d8609b178f88d88ee591c121d3c577bdb10",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_127_2.webp"
+  },
+  {
+    "uid": "en_image_130",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__130_fig1.png",
+    "source_sha256": "fdb0968c802966906bebd051aa93a0fe39d1d006c0d82e385039b6f16a8506f8",
+    "released_png_sha256": "97acab636c29849726e75a259d7589dbaccb05dda1bfb1bd5dc798ecb5de90c1",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_130_1.webp"
+  },
+  {
+    "uid": "en_image_130",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__130_fig2.png",
+    "source_sha256": "c13f4b26d01145c8ab8fdc59b5378f387c696a0558b8c55493922a2632633daa",
+    "released_png_sha256": "dbb5aeb9b01cd30696e0e28a7184bd03f23ba6756a91bc04e770726793173722",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_130_2.webp"
+  },
+  {
+    "uid": "en_image_144",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__144_fig1.png",
+    "source_sha256": "e93443f65e0e97b7cfb21642eee8634464d21b26def53c2426e9790485f5691d",
+    "released_png_sha256": "da775a32edb677b2429691fc4a4b667ec7c6db2bf736f733774adf335c152fe9",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_144_1.webp"
+  },
+  {
+    "uid": "en_image_144",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__144_fig2.png",
+    "source_sha256": "58b836fcdcee4b8d626ef39a799782001e511b23bbd631d2aad7f925285bb6ca",
+    "released_png_sha256": "b6e3b0639adcd18da32cb5d779cdfe63a59a55ddff35363af8abc25473543b33",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_144_2.webp"
+  },
+  {
+    "uid": "en_image_183",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__183_fig1.png",
+    "source_sha256": "7dafe26e1306bbc95f0785889d9f2b0fa585f7fe46871c250f87b788ac244ea3",
+    "released_png_sha256": "20110092b8220a28fd32cc96fb01e1c51b25039840fdb99016bb3b2548d37dac",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_183_1.webp"
+  },
+  {
+    "uid": "en_image_183",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__183_fig2.png",
+    "source_sha256": "191e1799b7e78eac5680ca6faffaaaf86fe9b34db03a2eb7760f7e93d40a1094",
+    "released_png_sha256": "a72f6a58dfb6e2a4637a9b337f0fe5bebfec325b90e23bedc3041d768e2e08db",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_183_2.webp"
+  },
+  {
+    "uid": "en_image_187",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__187_fig1.png",
+    "source_sha256": "ce09b3d692fef88efe53ef814a99fd132fa3292772cb9bd43607b5cc963ccac7",
+    "released_png_sha256": "49d439cc1ed70dd84277f85c6573ce383ae5fc903c4443ec87f2668b2dd205c5",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_187_1.webp"
+  },
+  {
+    "uid": "en_image_187",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__187_fig2.png",
+    "source_sha256": "3c1c4d5da1047c78ecb4b5890d8f539682927996304b1295765890175d095f9a",
+    "released_png_sha256": "85b751a4a70d4028189e70d30ec9fff7880c1a684b4c21e1cacd29e7156240ae",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_187_2.webp"
+  },
+  {
+    "uid": "en_image_191",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__191_fig1.png",
+    "source_sha256": "7e0c42f10fb12f366fe51ee03e26c38d43daf5ac1e0b62df5735d6c8f3e4204b",
+    "released_png_sha256": "1a6af193ebfb5c579c45486ad4c81d2f71100d85416969a08e8dc12664a40cd1",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_191_1.webp"
+  },
+  {
+    "uid": "en_image_191",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__191_fig2_1786690203696.png",
+    "source_sha256": "b49f2ba0425bec15cf035046adb2c121c4a6c355ac7e08abef9afaf234c58bdb",
+    "released_png_sha256": "1ee2e23a6e7d7187829ad432926c1414f8e17e7a87dad2b85eea76a70afc4e81",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_191_2.webp"
+  },
+  {
+    "uid": "en_image_193",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__193_fig1.png",
+    "source_sha256": "0a5c0f8eb3edcdf673a8b90fb751cbaa699099df231c5262964217c45f4a607b",
+    "released_png_sha256": "fe4bef9357ab33f6af048d2a8e5271179832fcfab3e6445da177484c823b2f58",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_193_1.webp"
+  },
+  {
+    "uid": "en_image_193",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__193_fig2.png",
+    "source_sha256": "8e7c62fb1acade5ef8858c774cf0af86d6401077649fae4feead067b5e3dd2ef",
+    "released_png_sha256": "cbc965c69e87eb20874dba07ea9e22610789f0d7fd453920a2396c321a6d8820",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_193_2.webp"
+  },
+  {
+    "uid": "en_image_200",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__200_fig1.png",
+    "source_sha256": "be1670f5ac54b1751b30cc4cdb641a4c5c14f406abe13a6ad856a77742ec40f6",
+    "released_png_sha256": "250d01ec4339482d3424bec33cf7ab5d0f5b7db6bb4ae3ce8bf5e00a76cb3fa6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_200_1.webp"
+  },
+  {
+    "uid": "en_image_200",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__200_fig2.png",
+    "source_sha256": "e93b0d7977342c61fcf76670f08fb909f27f78633e5145060081be81f6b51265",
+    "released_png_sha256": "f6a51bc11146fc24b18812951f88bfa2daeb3e528e0ccec0f28a728cc620bec3",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_200_2.webp"
+  },
+  {
+    "uid": "en_image_201",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__201_fig1.png",
+    "source_sha256": "0088c9722b37e6b0360e7901ec6f31b30ddc7377f98916b28b65721b8aa3c396",
+    "released_png_sha256": "6e409b10b7688bbeda0b90e04b61b31ef797d5e9f31e7dececd76f4e4779befb",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_201_1.webp"
+  },
+  {
+    "uid": "en_image_201",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__201_fig2.png",
+    "source_sha256": "2480c0d4eb2f568a33c6ec5e490db8aa0853ca2b1e7e589afe8f9b20dea95e77",
+    "released_png_sha256": "132bdffb6edd9af330c05021b65784a2111e78de6190126a736c3e89b2dcb898",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_201_2.webp"
+  },
+  {
+    "uid": "en_image_202",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__202_fig1.png",
+    "source_sha256": "ae5e69dd241687cd7461142b03005ba6ecda6a439eb35041fe1cfb4119531d43",
+    "released_png_sha256": "619ed970e7f452294d7add945a45b0dd330be2e70f6ed548e71e71feb82c6c54",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_202_1.webp"
+  },
+  {
+    "uid": "en_image_202",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__202_fig2.png",
+    "source_sha256": "e0551e2564bf2de4c61302c6f2f10f862b22a4bc3672dca003ee87b43a6887bf",
+    "released_png_sha256": "df5f23ffeb60c1937fe1602481fb00b82736b80c2032cb13225e27b39aad17ba",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_202_2.webp"
+  },
+  {
+    "uid": "en_image_204",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__204_fig1.png",
+    "source_sha256": "63a5ac4a2b4cc74b872f73b62e34932503e9528208f4654a6c26140e4bbd8859",
+    "released_png_sha256": "aa48e2d10e748c3af808fefa85d90f3fad7ed3a53e670baf38e628f73d661db8",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_204_1.webp"
+  },
+  {
+    "uid": "en_image_204",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__204_fig2.png",
+    "source_sha256": "9f47e303c37b1c7528ebc941957ac71606a408afcd869de733f90b49da800c13",
+    "released_png_sha256": "2bee5d6470a3401c6c5547b570107e045dbf4feb0ef844a4359e1656b31f6362",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_204_2.webp"
+  },
+  {
+    "uid": "en_image_205",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__205_fig1.png",
+    "source_sha256": "b2d209f86147f2f349a969d104fd20e2ce9ce6ffd341dfd4ce9ec412bd8c360c",
+    "released_png_sha256": "afe1c746f5ebb2db3200de4c47cc2e83c21509f1594dabfe28884ecea970e236",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_205_1.webp"
+  },
+  {
+    "uid": "en_image_205",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__205_fig2.png",
+    "source_sha256": "893b18f899baef8da364d19973afa967e592ece12a117ffe3f57149a21aed00b",
+    "released_png_sha256": "be3c62c6e0231b62295cd8c29d911d9405907f4477862bdd47f806caea667d4c",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_205_2.webp"
+  },
+  {
+    "uid": "en_image_214",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__214_fig1.png",
+    "source_sha256": "7ffd0360650eafb735235e4acd8c130af22d354da9c95ade9321a044593a0f0c",
+    "released_png_sha256": "7998e517d6e374b67df65f3ad9c8d61bf0e170e5885b9c346d8270ecc6bb5a4f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_214_1.webp"
+  },
+  {
+    "uid": "en_image_214",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__214_fig2.png",
+    "source_sha256": "3fa8456bab8f2958f7c9b7071b5ac661c568013f1424296bc79cbb3e03301a7f",
+    "released_png_sha256": "df002d935aef4a548c9da3254da5f653e4f60fefdcc997041013dd4beec54e18",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_214_2.webp"
+  },
+  {
+    "uid": "en_image_221",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__221_fig1.png",
+    "source_sha256": "9f597f616cac9cd965444b16b828092ebaab79f994d2fc518e06b69f4f915731",
+    "released_png_sha256": "3d9816962a3024692d08040e66ea8aa755cb98063e3127736ead8a985e2babaa",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_221_1.webp"
+  },
+  {
+    "uid": "en_image_221",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__221_fig2.png",
+    "source_sha256": "7127d7f632848cd30f0ba30a27e19c718a45c40f1dd7d5dea541cd429f8d9c00",
+    "released_png_sha256": "98f514b9c59ac8552a7a7bb882e1d3d6046c490eb40883ccc58c3e9b843e8628",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_221_2.webp"
+  },
+  {
+    "uid": "en_image_226",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__226_fig1.png",
+    "source_sha256": "a3f7b3ec3d2d50c051b11c6227a31477a392bd356a1338fa788e52cd8720de53",
+    "released_png_sha256": "c23b9f074369624107aa9dc96721ba82fd71bab9b39768a0180be97cd4cb44b6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_226_1.webp"
+  },
+  {
+    "uid": "en_image_226",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__226_fig2.png",
+    "source_sha256": "c33fd0516f3e58e77e6509d979bc1ed6e94b82e42ac3ed2a8a2d5e2539c33f71",
+    "released_png_sha256": "13bce1f54a09c485d6f308f744004c098fa1f02d24565a4242a22811b0efdd7e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_226_2.webp"
+  },
+  {
+    "uid": "en_image_227",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__227_fig1.png",
+    "source_sha256": "7bb8689648b8c33f61f3dbc777fb1ea218e4d5442bc214e4262439163cbd745e",
+    "released_png_sha256": "8e6faf08e2b6933b033635e5cc72167544823e0811801c48f4f0d7e808ab69a5",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_227_1.webp"
+  },
+  {
+    "uid": "en_image_227",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__227_fig2.png",
+    "source_sha256": "33753be4c5ae70fff4d81cdaee06ac60063930be521c7ecf81c35114735d367a",
+    "released_png_sha256": "4235bb1283d0160ddd6c1b37ddf71a2d97889b63dad35d212b875dcc2237dff0",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_227_2.webp"
+  },
+  {
+    "uid": "en_image_229",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__229_fig1.png",
+    "source_sha256": "92613c8ddf425f166bc5d3f39480bbefa8eb6ac8fe9337fe7e4857c5e0ca2b7c",
+    "released_png_sha256": "ff0e166b2b54f428fd7f83462fbe2ed087750cbf961d0fe6357b1863d7c2943f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_229_1.webp"
+  },
+  {
+    "uid": "en_image_229",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__229_fig2.png",
+    "source_sha256": "748fd32b81acdf6be43e25c32a32a1a81a28d691d27d70e6b46bc0b2199e3906",
+    "released_png_sha256": "8ab9853ce8de774c6c657f1f5a6b9f0ce7883a01ac72a9b5b149037505200dca",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_229_2.webp"
+  },
+  {
+    "uid": "en_image_251",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__251_fig1.png",
+    "source_sha256": "7d7f3ed344873f2b41dbfb6c55075b887ab941a05653ed68850dbfc97e409f1d",
+    "released_png_sha256": "00a99ee1cd27bf877591526f106c46149231623da15ae722141043afc192c269",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_251_1.webp"
+  },
+  {
+    "uid": "en_image_251",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__251_fig2.png",
+    "source_sha256": "9052f7c9fb45092a28b68c2290573ad099d98f6f1ff348520197add8c0b09699",
+    "released_png_sha256": "878d1b8b434bef843fc4fae25f2a5a7455dd2af9dfdfdb5650c8242e09f9cf05",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_251_2.webp"
+  },
+  {
+    "uid": "en_image_255",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__255_fig1.png",
+    "source_sha256": "a9a2063bd41e2fa0b8bbd316468704607b68ac7f04dcf81504d8eee2c0539c53",
+    "released_png_sha256": "ef86d11b2afa75a2df3e1eb9a5b8232c198d55580125145ae32ffad06a07a639",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_255_1.webp"
+  },
+  {
+    "uid": "en_image_255",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__255_fig2.png",
+    "source_sha256": "d2425fea461c9161628fc84879ad205c4308bf59e40db2f662982e5b68b2c931",
+    "released_png_sha256": "a4934a9210e6a8f25ef0ad28bcfb1d29965e1fb6f95340cd38084a4920db1cdf",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_255_2.webp"
+  },
+  {
+    "uid": "en_image_262",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__262_fig1.png",
+    "source_sha256": "9757a94bd062cfd9241f31c65dfc9ab80ef2c28f2823c8f8243b3ba17353a142",
+    "released_png_sha256": "2780e4d3ce5d4d56a1140d9fc07323416087824aeb3665fbc178eb6ab3d5722d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_262_1.webp"
+  },
+  {
+    "uid": "en_image_262",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__262_fig2.png",
+    "source_sha256": "04da253b9579d7a3328f4eeb4aa66e02ccec24d56b7ba55243d8601b75db365c",
+    "released_png_sha256": "14d26e107c71eda643a54a557ae69fd0a98157f7ed989ab79656dc744b52e775",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_262_2.webp"
+  },
+  {
+    "uid": "en_image_301",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__301_fig1.png",
+    "source_sha256": "e92f8363c58b72d2e5732cda5cbafff812e8cd66d1b9036408fc3693a74fe3fe",
+    "released_png_sha256": "cbf9b3d797c5c7b1b652ae457f452a768a0d49dfb273d98abb7849b02aa4ef64",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_301_1.webp"
+  },
+  {
+    "uid": "en_image_301",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__301_fig2.png",
+    "source_sha256": "f7cd61bac90f309eed8c2c2e465f06e6b1a7889069187f37ad2a4bed9edef8a2",
+    "released_png_sha256": "8df1d41fc51d0cc1728f5eb6cf148db12d0ed81dd4a5d4d407ad4e6685fb9796",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_301_2.webp"
+  },
+  {
+    "uid": "en_image_303",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__303_fig1.png",
+    "source_sha256": "161fff4940485f15870961dbfcdbe112851b4e53bcb7f1eec76aab05679cac99",
+    "released_png_sha256": "a1f5c0623866f20403dfda1c79c8a0eeea5ce390c48d61c23b0a07db181d46ff",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_303_1.webp"
+  },
+  {
+    "uid": "en_image_303",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__303_fig2.png",
+    "source_sha256": "e0e980318de0f6eff06da94c3000626f52e8d0cdcb600f1adba3edbd823cffa8",
+    "released_png_sha256": "bb695f949620e9a7e2190a1949755be852da9ede7e249e25efc0885d213dbea2",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_303_2.webp"
+  },
+  {
+    "uid": "en_image_306",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__306_fig1.png",
+    "source_sha256": "73946aa4c865ccf068feee988bb9391ec8c722c0e5e699ee0c288894ebe3eb4f",
+    "released_png_sha256": "824456b90af1e911413f3ef8e399ae45f47c3700d06720c3a430402ad1669083",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_306_1.webp"
+  },
+  {
+    "uid": "en_image_306",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__306_fig2.png",
+    "source_sha256": "44849bc8f74efa9f0a235b0f41a1e93f1f1e5e051909bda7c3e091ac8a8a62ef",
+    "released_png_sha256": "80b294978a3cf0a53c328ae03a1cbbdd58caccec7f65a7208636850c49b5dc3c",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_306_2.webp"
+  },
+  {
+    "uid": "en_image_323",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__323_fig1.png",
+    "source_sha256": "e2ea571807209aee732bea4862a8a52728fc0d5ec4c47f42e83806570f354d03",
+    "released_png_sha256": "a361b37cb867492a778d6dd803658be3df80df62b08bc5f09346230ca8d3417f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_323_1.webp"
+  },
+  {
+    "uid": "en_image_323",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__323_fig2.png",
+    "source_sha256": "5233e8319ad7e04cc390b4b7f8286fb36c6fc0b7562f177929b7323a4938dcf0",
+    "released_png_sha256": "9c9a5e1ca5f78eee446f4be5d56e13583d121a0e1affaa9675722556d33982aa",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_323_2.webp"
+  },
+  {
+    "uid": "en_image_325",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__325_fig1.png",
+    "source_sha256": "ec155f0560cafe75f11b507b2ac06a2268ba83970ab2d21d1f6b34c781ac8de1",
+    "released_png_sha256": "05286441048688dc9305f9402c392ba0aae921035f09c2e5ff96b5db5d1ceabb",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_325_1.webp"
+  },
+  {
+    "uid": "en_image_325",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__325_fig2.png",
+    "source_sha256": "8375a32af4753d4005f1b76d3db59a90ba57fd3c53dcd6d2825927571a949901",
+    "released_png_sha256": "46108a7dfc80d84bfabf37f2ffcd822d3520118fe2a125c4de148498c5c78889",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_325_2.webp"
+  },
+  {
+    "uid": "en_image_331",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__331_fig1.png",
+    "source_sha256": "7cee7d458113154337abb1b91b863b86d0b231e41d640a0f98413aee1d3efcaf",
+    "released_png_sha256": "e6d40e7fd73508817d44245fa0195c4c9490067be9366bfa5e0de2beac89a856",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_331_1.webp"
+  },
+  {
+    "uid": "en_image_331",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__331_fig2.png",
+    "source_sha256": "9b1fccf0e6f011f7caee74729d8a00264fe07535b2c3304060e59c99a98807d1",
+    "released_png_sha256": "1b845b99a9d14abce424c786fb24f77d18777550926ffd17cd92a3b64f924daf",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_331_2.webp"
+  },
+  {
+    "uid": "en_image_340",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__340_fig1.png",
+    "source_sha256": "c9bd0c58a3c9e8126083d7817222bb74f975ff1fe27c2adf6c7edb1299cd688c",
+    "released_png_sha256": "bd41eb90726669b741c500d8b9d4b66c1ab5969994ce027469d6c872dac7edd5",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_340_1.webp"
+  },
+  {
+    "uid": "en_image_340",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__340_fig2.png",
+    "source_sha256": "138457e649e8db99ef8721a560b39ed8e1f95be7f83ccba4223dd5d9c574031e",
+    "released_png_sha256": "34fe5061c08ce49b40402958663a3b375b817f1d4ec9b188398017d77d09ce2b",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_340_2.webp"
+  },
+  {
+    "uid": "en_image_341",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__341_fig1.png",
+    "source_sha256": "368132f232a207f58e847bdefb15877f08636aa038010e2e5c5c13d88dcb2ad4",
+    "released_png_sha256": "d67fdc4507a436d39583964c6b08864039383471aec7af48582958c254515553",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_341_1.webp"
+  },
+  {
+    "uid": "en_image_341",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__341_fig2.png",
+    "source_sha256": "70ea928338671f84b43b9d1077bf106496ce22aade786ee394de26f2adfbc8cd",
+    "released_png_sha256": "f4a800b0f977d14083e81ced4867212b3970e50ea091dd6484a3df7150063570",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_341_2.webp"
+  },
+  {
+    "uid": "en_image_346",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__346_fig1.png",
+    "source_sha256": "7dc79c1366629a7d679e4e431bd2e2483804ad52feeb14d01737d41da821268b",
+    "released_png_sha256": "f10415c5cf166fd37c3dcadeec3c216d9c6e6d37511f2ceae2571263fc221021",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_346_1.webp"
+  },
+  {
+    "uid": "en_image_346",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__346_fig2.png",
+    "source_sha256": "bc65248037916b749a09e5f4bb4ba74330e833e1391d4f64a20621606c0af9bb",
+    "released_png_sha256": "2e1028b81f299a8d19125ea1a78de5b9bd42369c45585287efb140a560406bdd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_346_2.webp"
+  },
+  {
+    "uid": "en_image_347",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__347_fig1.png",
+    "source_sha256": "45cf16bb35ba6960a75da92a8431dac5fb95d822fed990cdb6d3c8a315756a34",
+    "released_png_sha256": "94b14fb8074a67eb22de41883c71c2e4d4bcc414db62313fcb7d3b58d562f30f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_347_1.webp"
+  },
+  {
+    "uid": "en_image_347",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__347_fig2.png",
+    "source_sha256": "8b1a54684598d571fa3271974250892a0b931b030f9f072de9e28b7cf315d8d5",
+    "released_png_sha256": "298eb7fb3ae3391d9438ed30e4df272c566966e2a9774c0ccd00dfc0cf2d7825",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_347_2.webp"
+  },
+  {
+    "uid": "en_image_362",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__362_fig1.png",
+    "source_sha256": "0dfbd11ee3b46615093f542510e9635b2abe10c631a5267bb3cf64258230de94",
+    "released_png_sha256": "307a8efac9833ce18d165731ca3350a7fcccba7fe5a7dfa20ec5dccc382c2cdd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_362_1.webp"
+  },
+  {
+    "uid": "en_image_362",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__362_fig2.png",
+    "source_sha256": "b955bce2c9cc3e0c865865b719887871c3ceac60653a7306d8b83b5973f4ceab",
+    "released_png_sha256": "5f3c5254a3e705b155bc9869dcc1566520080bbed47b5eea296edb28f23a2bdf",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_362_2.webp"
+  },
+  {
+    "uid": "en_image_365",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__365_fig1.png",
+    "source_sha256": "cce8f209c461b86053f42e34e4c2ccfa5009371e06be32a54b1a25c28ab678d0",
+    "released_png_sha256": "9d60b34638e8cd2e7e8d9fb00d759e8e821685a14981d7683d3884a79dc50c3a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_365_1.webp"
+  },
+  {
+    "uid": "en_image_365",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__365_fig2.png",
+    "source_sha256": "73421f843400fa8a17907560ac0d525fdff86985161709920e469774c4b4d443",
+    "released_png_sha256": "a5186538aa8910e99140e7b5e451633cfa0d141592d54220743d2e960b8f0387",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_365_2.webp"
+  },
+  {
+    "uid": "en_image_367",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__367_fig1.png",
+    "source_sha256": "23c9f788498a8e73475412db1021b51e0101b611c7d63e4e0877e3413499e3b0",
+    "released_png_sha256": "f260b662bcc261369ced81f0186d348c4a2f80a876082caf4d069e72cea518f7",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_367_1.webp"
+  },
+  {
+    "uid": "en_image_367",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__367_fig2.png",
+    "source_sha256": "6ad6be72b7cba6a2b84e2f5cad62800f11e6f18672dd8c5366946f94166419b0",
+    "released_png_sha256": "677eb9bedd91b1c9e6f8a43ad87ffdb1d1c784f9269c2e5e12d2ecf09731414a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_367_2.webp"
+  },
+  {
+    "uid": "en_image_368",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__368_fig1.png",
+    "source_sha256": "b42ecf5cfe1730cc466745917fe2cfd1ad2f7ba67acb31cb0a5cbdb08616fc12",
+    "released_png_sha256": "72851f5f29c05865b0abe32a46dacb5acdd1549188193c9a6eb69c9b28e0d8d1",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_368_1.webp"
+  },
+  {
+    "uid": "en_image_368",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__368_fig2.png",
+    "source_sha256": "14da6b2270f71cebb9e39975006b86f80103eae60616237805faca1d0cec578c",
+    "released_png_sha256": "f780bf7ca1c265b9998f55c4b25cdda12abfa3e861484b18d50f10b958667a8a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_368_2.webp"
+  },
+  {
+    "uid": "en_image_370",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__370_fig1.png",
+    "source_sha256": "93e6416e73bf049bb608797fdafbd0076b77533a64b32c79db7ebd8c5efaab7f",
+    "released_png_sha256": "abf43179db3443b310e4d27ee733b49ecc14fad6b31275147d4387d99030f41a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_370_1.webp"
+  },
+  {
+    "uid": "en_image_370",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__370_fig2.png",
+    "source_sha256": "7aeee501febb8db5ec9ae76ecaa744e17b82f47e3426e64d4a19bf77e3941d90",
+    "released_png_sha256": "73472040447dd76e9a87ed03ee78a1a51e10c32c48210514eec4d436df95f294",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_370_2.webp"
+  },
+  {
+    "uid": "en_image_371",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__371_fig1.png",
+    "source_sha256": "b4da662c72d8ba803482638f77b164bc4a037957bea942f374986473904ff221",
+    "released_png_sha256": "cb7666e74248927cf03c62a9eced172bd65ba3ffb69a391641b3cc0a59c25253",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_371_1.webp"
+  },
+  {
+    "uid": "en_image_371",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__371_fig2.png",
+    "source_sha256": "4a8936906a7b1c3c02743b4b3c487533fa86f4ef76f9f101d00f6a254f9594d6",
+    "released_png_sha256": "e998055d3318269d57daae25174b3cb3b573203a8887f0818bda537e8c5f9b34",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_371_2.webp"
+  },
+  {
+    "uid": "en_image_372",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__372_fig1.png",
+    "source_sha256": "2299d05dcb00362d318ee80b41e5db8f7de1e490b9048273ac6a67ae179ab98d",
+    "released_png_sha256": "8813d53776897d93dd7415950abe62da2a58a96f0604203343a38a8d146fcb35",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_372_1.webp"
+  },
+  {
+    "uid": "en_image_372",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__372_fig2.png",
+    "source_sha256": "bf4836e23b43a10034ad2819235465adca0af1f21ce07f4db56ac0f6a9aae811",
+    "released_png_sha256": "d64cab11c88964558e0a0058b9db04d8b193a8a984c3de1e596e0ba3475e0aa6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_372_2.webp"
+  },
+  {
+    "uid": "en_image_373",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__373_fig1.png",
+    "source_sha256": "7bc0003818b17f89dddd23db6bc149202eac7ef4cf5c1fbb4eac8345e57827bf",
+    "released_png_sha256": "4e87b3aa7bead90f6bde17502a195513ee6e48f089448ae3a98ca16265258fc1",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_373_1.webp"
+  },
+  {
+    "uid": "en_image_373",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__373_fig2.png",
+    "source_sha256": "86ce89cc0c5d6d29b4c86c73c2fb5b1ef3bb99a5cf8898951d4bfd34bf113e6a",
+    "released_png_sha256": "9eecd28b250edd0d3acd8a5fecb95c70cefa71479a1cf8cb9fd16a647863f413",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_373_2.webp"
+  },
+  {
+    "uid": "en_image_375",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__375_fig1.png",
+    "source_sha256": "92927699379ae9b4d30e285e9ea1468af0c467b633a22fca5e0b0dd9768741c5",
+    "released_png_sha256": "a924df8e6193de90a88835b7cc69025638deb8e18b9528c3243ec4ceae0be41c",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_375_1.webp"
+  },
+  {
+    "uid": "en_image_375",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__375_fig2.png",
+    "source_sha256": "7d8fc8e0dccc1028c233df0ae70111f4b0e1acfec242a52a5fff02a0c39fc7b4",
+    "released_png_sha256": "151a36e3f3c426bdc2f80cd0db0394a0c3ca30ae1d08519cdf72ad9536064a3d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_375_2.webp"
+  },
+  {
+    "uid": "en_image_376",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__376_fig1.png",
+    "source_sha256": "c44ac9be3422669fe253319354e54c4bd26a6b0c6d43f2b8d598dec461f1e52c",
+    "released_png_sha256": "63ff4410072cb1941d2741071729a6f6bd92d24220ab70a698050b0944a4a27d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_376_1.webp"
+  },
+  {
+    "uid": "en_image_376",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__376_fig2.png",
+    "source_sha256": "4acd6289c5a2139fcc3239e1a5d033267953e0e1a63ab87826ac82c486dee1aa",
+    "released_png_sha256": "acb244007f5e187401c58e367ba394d2d4bc8fb347172136b1c4dd3b1e8a7052",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_376_2.webp"
+  },
+  {
+    "uid": "en_image_384",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__384_fig1.png",
+    "source_sha256": "d599c86d201f152691d7036fcdac4b111396e0516219904a94d2d95fbc5c8d7e",
+    "released_png_sha256": "7bbd2822a9d595c30e39e1e8bf0f32c4f316673e60190e0bd88a09765c9ad93f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_384_1.webp"
+  },
+  {
+    "uid": "en_image_384",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__384_fig2.png",
+    "source_sha256": "76b4fedd492cd1790fa3f157e7dc05781011923ba6f25c6d1519c73d04bd1dfd",
+    "released_png_sha256": "648c2f16b1445adc2da49a761c5f0b1de3a1b67e28e72c9a879418c229c73dc3",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_384_2.webp"
+  },
+  {
+    "uid": "en_image_386",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__386_fig1.png",
+    "source_sha256": "177b87c363b46daece197fba67a01ba4484e4a45d3bec863feafe9eb6e712cbc",
+    "released_png_sha256": "74edd7eecd68e64ff6b29bf073dbd9cbd4bd53b4414713fa25091e07e5c6af4f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_386_1.webp"
+  },
+  {
+    "uid": "en_image_386",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__386_fig2.png",
+    "source_sha256": "be3853fea5356cebe17277a7e81d2c6e0cad3b325cd56c7a3bf8577f0061cafc",
+    "released_png_sha256": "a39ba701859493b8e19fef58d84cf830c5bdce9681e1e6b524878f422d5a7f23",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_386_2.webp"
+  },
+  {
+    "uid": "en_image_394",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__394_fig1.png",
+    "source_sha256": "5719915236ab81737da49cb59e6f57c9f1b2bfa498e3367f0fd808fd3871a5fd",
+    "released_png_sha256": "d845239473fe5e2e9815ddfe294e75e0d5a5f9b0fc753a4bf542cfabe297a811",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_394_1.webp"
+  },
+  {
+    "uid": "en_image_394",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__394_fig2.png",
+    "source_sha256": "35242dd145195ee960d6465824a9b69d52d689115a605a1143832ca143527f05",
+    "released_png_sha256": "b23f25fd213b9e555d767008668d8a5c29badcd874a90287323f3d30d8d2c815",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_394_2.webp"
+  },
+  {
+    "uid": "en_image_398",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__398_fig1.png",
+    "source_sha256": "41a32c1f18983bec1d366a94c696ec24c5b1cd4e869209ce4b25183e487ddaa5",
+    "released_png_sha256": "01089326fa30a62720bb21a937d18eba65f1e548a0c963dbdb0232baf1713bb9",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_398_1.webp"
+  },
+  {
+    "uid": "en_image_398",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__398_fig2.png",
+    "source_sha256": "601f48ede5397e4abda688d2feb033c69129358802afc5473cefa1120e86d808",
+    "released_png_sha256": "615176d08707c18a0f280ada2230f5248a932a133671ad9204961a1a748e8da0",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_398_2.webp"
+  },
+  {
+    "uid": "en_image_408",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__408_fig1.png",
+    "source_sha256": "fc3cd657750dd78053fe11dcd3955cc7af6d11d40fc7b80aacd88fe93fb7da70",
+    "released_png_sha256": "d0e542d9ec56bab3a2d3845b371a3e9f3fb7beafe2b77b6df49e6516c9aa69db",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_408_1.webp"
+  },
+  {
+    "uid": "en_image_408",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__408_fig2.png",
+    "source_sha256": "e9605e0c2e5dba56664e125a674e2937c004f0b91ff06f693937d401df52358e",
+    "released_png_sha256": "1d9dd28a9fa5b6bbb430567652142a506dd082c64c7d1327b7e2c4f71a0f8c94",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_408_2.webp"
+  },
+  {
+    "uid": "en_image_412",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__412_fig1.png",
+    "source_sha256": "9f7409473fd6c34b20b4c661059fc70949242a5cfeb52c4409aeccd538887285",
+    "released_png_sha256": "1e3c9a4b4bc1b9e5ba5b90dcc43684c769cf09d0bf0c404140d2e68c667f2fc9",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_412_1.webp"
+  },
+  {
+    "uid": "en_image_412",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__412_fig2.png",
+    "source_sha256": "377280e2b394c2b72708dace35c210e17b7ea7f497c44c0bbde68b67ab4c57e9",
+    "released_png_sha256": "351c28e0d8956cb52329ebd6a45606ebf08627a37f8024a6d22d5a00f96187e7",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_412_2.webp"
+  },
+  {
+    "uid": "en_image_413",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__413_fig1.png",
+    "source_sha256": "6c929e283c97f99299e66c88976bf02b6cdcb2c03600ea321c5e3fde9a229949",
+    "released_png_sha256": "cc626131f52357ce1b9a1561599eab138250180d6ebb7b86b76099434ffa0efe",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_413_1.webp"
+  },
+  {
+    "uid": "en_image_413",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__413_fig2.png",
+    "source_sha256": "7811c1d0d7dba091ab68fa6b7420f5f1d1465cac3682b6c3a87ee0abf3aa31aa",
+    "released_png_sha256": "14c5bfed36b663495c0da042b6b783642eb9015d94c16215fd403fa0945c8c24",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_413_2.webp"
+  },
+  {
+    "uid": "en_image_420",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__420_fig1.png",
+    "source_sha256": "fee7a7ea27df7e031ead3c69c715ee03fdf7111cc523f0f13dea48b2b3c7ffc3",
+    "released_png_sha256": "81e837b744275c2367e041dc29395aa4ebb3bedf84e02d3b5647e9ddff5a0989",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_420_1.webp"
+  },
+  {
+    "uid": "en_image_420",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__420_fig2.png",
+    "source_sha256": "8512577b37cc8302e7d3c706c6aee42822121500f3cf3eed642a8d65e19b2de6",
+    "released_png_sha256": "4fe12e42d0f198bd12a0debda812996da800b7faee2122f9b94948f4248a060f",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_420_2.webp"
+  },
+  {
+    "uid": "en_image_422",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__422_fig1.png",
+    "source_sha256": "15a022822a5406beb6ceafba24c0e1f151007a8988148fcb705037f5a2f4bc95",
+    "released_png_sha256": "da73b73805b82365ae4f80f00736b2e70cc13f32f5d33a7c86348603bc0a5238",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_422_1.webp"
+  },
+  {
+    "uid": "en_image_422",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__422_fig2.png",
+    "source_sha256": "ed76710aea895ecfd7ba331c61884dd17fd5399ed942182cb1e8a457c4aed8e6",
+    "released_png_sha256": "c1a81be4b2f67f4b80802223bb5de4b77431e50c4a9f3d66a3342925dcae2700",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_422_2.webp"
+  },
+  {
+    "uid": "en_image_430",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__430_fig1.png",
+    "source_sha256": "ef9ad0503f112690f0c14602e96954e43cf7cd83934556c1d794551b7efce3db",
+    "released_png_sha256": "cdcf02f87a3a1ad4a370f9875a69fffac050291735b6d09e0f4f021b33486fe0",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_430_1.webp"
+  },
+  {
+    "uid": "en_image_430",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__430_fig2.png",
+    "source_sha256": "3b58b46a3eb0a239996a90d35ce46308b825bde155630fc9ca90661a89ad6e14",
+    "released_png_sha256": "9f4966e4ad11aae81751443831b5588db3200aaebbf2b5767a397bbbff3b23d0",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_430_2.webp"
+  },
+  {
+    "uid": "en_image_440",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__440_fig1.png",
+    "source_sha256": "f2dbd4e09ddff911018c8767e06b654616f9909a24ddff9406a81e6ffb9acc99",
+    "released_png_sha256": "0f01810796fabb345486e8fa3cfe52e30d569864a17d74e9dfc3c610af3d8228",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_440_1.webp"
+  },
+  {
+    "uid": "en_image_440",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__440_fig2.png",
+    "source_sha256": "9317e41f5be5475410bb71050095e5e81fff673bd474fa7f42ee0b0987eeb23a",
+    "released_png_sha256": "9422e481ac35681b1280591c8a0da346f9ef5c6fb6b81bdebeaa163263aac602",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_440_2.webp"
+  },
+  {
+    "uid": "en_image_458",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__458_fig1.png",
+    "source_sha256": "cb3e12e4175c6d005d48a854393f79efdfc58a511b979e2b27fe0ea07981d039",
+    "released_png_sha256": "0a223f262c76481b4ec14939bca100b4dd7577ca023d0f471a9a027888c3ddaa",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_458_1.webp"
+  },
+  {
+    "uid": "en_image_458",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__458_fig2.png",
+    "source_sha256": "d3d434d1637309ef6ab496adda5a527accedb36da53d8e8ed253aeb4224a2830",
+    "released_png_sha256": "32d0535ca23136e723f80297e39fc6f701e46afa036f01720579dd9e4ed70920",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_458_2.webp"
+  },
+  {
+    "uid": "en_image_478",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__478_fig1.png",
+    "source_sha256": "fca5b15a954fec3f1db05ae5c9de3b157f4d0615ca7764e709f79aeaa9a3ec82",
+    "released_png_sha256": "b96b005c74f1c914c57aa51229d7c9ccf8c189ab2610c14bb42d7a88d79993c1",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_478_1.webp"
+  },
+  {
+    "uid": "en_image_478",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__478_fig2.png",
+    "source_sha256": "b918c4ef51519c8f833111bb8aea7dbf868de9a6718e4bc6c85359034a6fe275",
+    "released_png_sha256": "d5aa9fa90b5172ba8596738473cf96cc423dbb478f57590f86fa4873b102d349",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_478_2.webp"
+  },
+  {
+    "uid": "en_image_553",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__553_fig1.png",
+    "source_sha256": "03fdf69de14a68776d3faa9837b3d2f399a8aed10550e11ba20dbb47841eeaae",
+    "released_png_sha256": "e7f8f6d75cd469d92c3ba446cacb1455ea1dfdf04d5e26943511d2a97c931953",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_553_1.webp"
+  },
+  {
+    "uid": "en_image_553",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__553_fig2.png",
+    "source_sha256": "2cfdfc149e7557574b32eae9c8a6d2a1020d04957f2fa8087f342d96b6824302",
+    "released_png_sha256": "802f28cd01d483ca16a1b9fcf72ade92559593280be916fd5fe8d280f3ce6169",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_553_2.webp"
+  },
+  {
+    "uid": "en_image_558",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__558_fig1.png",
+    "source_sha256": "16a1d2aba187b7ba333b918b9f7b0778e665804d19e525e415c3b74f6d8282dc",
+    "released_png_sha256": "f5c17ecaf35b98192146520bd1424929570c11ad824920e83f46c208d65465b6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_558_1.webp"
+  },
+  {
+    "uid": "en_image_558",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__558_fig2.png",
+    "source_sha256": "87daee640432355ad1064030c7c34717afd0cc832ca261ff2420f99de3a39cc8",
+    "released_png_sha256": "667ef2c6520598b62d774e8a567222c7e1f2a46568f823705dc690275e859455",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_558_2.webp"
+  },
+  {
+    "uid": "en_image_559",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__559_fig1.png",
+    "source_sha256": "16a1d2aba187b7ba333b918b9f7b0778e665804d19e525e415c3b74f6d8282dc",
+    "released_png_sha256": "f5c17ecaf35b98192146520bd1424929570c11ad824920e83f46c208d65465b6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_559_1.webp"
+  },
+  {
+    "uid": "en_image_559",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__559_fig2.png",
+    "source_sha256": "bcb3be1fc9ebb9135c2bb4057f40c237754071c1fcde4782050bc978cdb9c829",
+    "released_png_sha256": "6882b454bfae0badfc354a096e00912125b7323e1864a7feb084b75624bd1e6d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_559_2.webp"
+  },
+  {
+    "uid": "en_image_561",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__561_fig1.png",
+    "source_sha256": "16a1d2aba187b7ba333b918b9f7b0778e665804d19e525e415c3b74f6d8282dc",
+    "released_png_sha256": "f5c17ecaf35b98192146520bd1424929570c11ad824920e83f46c208d65465b6",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_561_1.webp"
+  },
+  {
+    "uid": "en_image_561",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__561_fig2.png",
+    "source_sha256": "fe786c2a37a44f710eb2b291b170351c083bb4cb5e31eb2e42317eb35f2e502a",
+    "released_png_sha256": "ecaaf7a16c8acb2cc79ba80ef58dbc5ce720e9e1de5c1c381f72644f6f31c710",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_561_2.webp"
+  },
+  {
+    "uid": "en_image_566",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__566_fig1.png",
+    "source_sha256": "7228d164e9465bf7812625597f6b51f332ac87eeee9a3a9742458fc86d43e439",
+    "released_png_sha256": "8b2273f069a6c9f2e4706f0b12347d27c7605c5ffc3a6c022375e2cc9654836e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_566_1.webp"
+  },
+  {
+    "uid": "en_image_566",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__566_fig2.png",
+    "source_sha256": "d90f2653ab2b8c3f6d5ad69ff9fb319d49678be4eb4bce263fceac3d02941d8f",
+    "released_png_sha256": "f79538b72fb2543adc2487ab602cb2de2d2ed5d3dcc0c86a616154cb1e132e5d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_566_2.webp"
+  },
+  {
+    "uid": "en_image_606",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__606_fig1.png",
+    "source_sha256": "63a5ac4a2b4cc74b872f73b62e34932503e9528208f4654a6c26140e4bbd8859",
+    "released_png_sha256": "aa48e2d10e748c3af808fefa85d90f3fad7ed3a53e670baf38e628f73d661db8",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_606_1.webp"
+  },
+  {
+    "uid": "en_image_606",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__606_fig2.png",
+    "source_sha256": "9cadb74add777d0a80804d0cbbeed076b3dcabfd95a7dc93e673f4bd5e98df08",
+    "released_png_sha256": "4107a2c3b37d5dbe0dc40d4d98e391e395c115d0b11f2456e53fb9e9c11a3e72",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_606_2.webp"
+  },
+  {
+    "uid": "en_image_654",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__654_fig1.png",
+    "source_sha256": "94d0dee919b6afbf8fcd619fe1a27a3ce2a8430991ec69826a0366502a4e7a47",
+    "released_png_sha256": "dc8805bb7dd0cb2eada7032540401b6552da2819603ea619cfe5e4a981d2bd44",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_654_1.webp"
+  },
+  {
+    "uid": "en_image_654",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__654_fig2.png",
+    "source_sha256": "5175368bb895093de1e86b928b8b0fb2830d5fb4f78cc3caa742f7b0160885ee",
+    "released_png_sha256": "64f2386d20fe25e0654c1f2063ba0410af9f4add7ea31bdc791b44726cc0fe7d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_654_2.webp"
+  },
+  {
+    "uid": "en_image_660",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__660_fig1.png",
+    "source_sha256": "b393a543ef17f81e0798f6349e80840b688b973be37f0353beaeff94450fd0c8",
+    "released_png_sha256": "612fc73efdd68ec4d9a7c1ce30b4a12e9772b2fcb908a586168dbfc2193be801",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_660_1.webp"
+  },
+  {
+    "uid": "en_image_660",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__660_fig2.png",
+    "source_sha256": "f7138b7241118cbcf59c350e82c529e4128a6c2ce405094e0c9a22039b4ce55b",
+    "released_png_sha256": "333d90d7049df5241ca3fce7c9496ae9b389976beb3fb065d36dd83233907874",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_660_2.webp"
+  },
+  {
+    "uid": "en_image_676",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__676_fig1.png",
+    "source_sha256": "9b2d45883407daf4cc0acab1c5b1533553abc0cb86566144bfea7e8fb0ea3dd2",
+    "released_png_sha256": "9b9a51460f0457f5f7752514bc0290171f161fce4e75bc510063107661e74c97",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_676_1.webp"
+  },
+  {
+    "uid": "en_image_676",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__676_fig2.png",
+    "source_sha256": "fed5743d038a9a90073e6deba5a41b6a21d106af3f7eb88010b7a381c514daac",
+    "released_png_sha256": "7298d471de71615d8f6de1f1f71a9eb10bd88e038b5308734ea7ecff3fbff95a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_676_2.webp"
+  },
+  {
+    "uid": "en_image_786",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__786_fig1.png",
+    "source_sha256": "71d893b791828d885fdc54972afaf101e2b36368e3505a7e95a9e24d9bffd973",
+    "released_png_sha256": "4c5c93b6c9f8ad92e65b95dd5b261a3f08ebd9ec6fad1399c34e617b4fa7136d",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_786_1.webp"
+  },
+  {
+    "uid": "en_image_786",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__786_fig2.png",
+    "source_sha256": "4f13c48704740b65fa2e1d920ff770d7e0f0a81f0956c9133a237ce10129ac7d",
+    "released_png_sha256": "6ce786447b4c8228cd17dd0a90218fcb728c68deedc5bb04e43230e74388c9c8",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_786_2.webp"
+  },
+  {
+    "uid": "en_image_804",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__804_fig1.png",
+    "source_sha256": "1a25970893846f2dc774de9fcb194f22ca62e741f653c67c93a88fcddf93acf3",
+    "released_png_sha256": "27ee6ec0b4473bb7d5239d3f90a14752c735579d52dc7d931e99f9fe552c2f82",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_804_1.webp"
+  },
+  {
+    "uid": "en_image_804",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__804_fig2.png",
+    "source_sha256": "4ab636b13c99bb418f7217833dac34aef57861d8bfd818c3925e9bde2a885140",
+    "released_png_sha256": "4685a7b9ba3ba0251d93f3c730034b3c7b0d55354ad0a112decd4d8eedc112c4",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_804_2.webp"
+  },
+  {
+    "uid": "en_image_881",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__881_fig1.png",
+    "source_sha256": "38d3e643d2b2c8fdbfe8d5e24ed8490f047790cb34e716e346d9e92937f3c072",
+    "released_png_sha256": "48e15debd5ffeb50ba1e73a96a03d2018ecb42966fe606642587a1d9a049ad8a",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_881_1.webp"
+  },
+  {
+    "uid": "en_image_881",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__881_fig2.png",
+    "source_sha256": "c429143900180dcf34adf1c3d054eebbfb387edccf477d10b505268f37769a40",
+    "released_png_sha256": "9f4ac92726a9c9320ee4dd2a8bb8d19569c3b5266db44764b9c5bb4324b71c89",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_881_2.webp"
+  },
+  {
+    "uid": "en_image_882",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__882_fig1.png",
+    "source_sha256": "f2d461ba864b9fa341b6b40e84ee2bc17f7ceda7aa2c0fe8848f44c2a935e0b2",
+    "released_png_sha256": "14e838f5c2f1ca95a45827733806a4c46c85ef07c4e0d2b67c16f9e4206592be",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_882_1.webp"
+  },
+  {
+    "uid": "en_image_882",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__882_fig2.png",
+    "source_sha256": "43841f4c4410508a50da2fa63df5d6de38437eb08967d52cf6f73d8429d138e4",
+    "released_png_sha256": "f9a318bfd03dc9152b1d39fc6258b1638e25c1f64d6306521a7d693030c50fee",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_882_2.webp"
+  },
+  {
+    "uid": "en_image_889",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__889_fig1.png",
+    "source_sha256": "8bd9c5d059f836f603a0f546bbdf978ce9cb83094a10f5f0dfd9f5c79434235c",
+    "released_png_sha256": "d632b3b8b9066b33ae768ffe34fde68bfce973549ceb07854a149cfb804173b2",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_889_1.webp"
+  },
+  {
+    "uid": "en_image_889",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__889_fig2.png",
+    "source_sha256": "8e95f925bf4bd36316fc86a884fe5658c325bfe3438f91dadfce78eb6a7f3a7a",
+    "released_png_sha256": "581e4739edd8fd7ea45848a81db0568c4f3309d2bb3a8c142b1664278d763878",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_889_2.webp"
+  },
+  {
+    "uid": "en_image_906",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__906_fig1.png",
+    "source_sha256": "c70a6d3644b4e501a028dd4dd0359739b30a069b07b05d01356f645f18e3b01c",
+    "released_png_sha256": "4f73a0f26eb0f13f7245d5a993490234dffc9777666220603418faf5f4d50009",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_906_1.webp"
+  },
+  {
+    "uid": "en_image_906",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__906_fig2.png",
+    "source_sha256": "2a9b5cd3512c6555be43bf15506e297f32c897fb298121f31d839dedb635ab73",
+    "released_png_sha256": "f9b4f7af52f650e6369bb1139413f0edaa57161338609dd5db5354dd9157baad",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_906_2.webp"
+  },
+  {
+    "uid": "en_image_911",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__911_fig1.png",
+    "source_sha256": "2588a6590375431bb76a242230d586f5c06239bce9a9c78aadb8672b1d548809",
+    "released_png_sha256": "f83054cddd5c7b8c6ccee4697b4e14d3c496d1f853bc19354557333f934ac350",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_911_1.webp"
+  },
+  {
+    "uid": "en_image_911",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__911_fig2.png",
+    "source_sha256": "205d0a4adf262f001d965a45aa5f62b9f37a65d01a9e4252b6b094c51576f9f3",
+    "released_png_sha256": "e61420d0c11459c95e6833b708da09ac3ae29cbb238e979b10f86df01e08a0bd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_911_2.webp"
+  },
+  {
+    "uid": "en_image_926",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__926_fig1.png",
+    "source_sha256": "c7080868ddd21506f5647190a11659b4940da0e8d3a972b3578916f0cabc55fd",
+    "released_png_sha256": "e3b4cce0c5a457a5eea8e333725157d553d01a40c62d13b2d62964f31b48ec7b",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_926_1.webp"
+  },
+  {
+    "uid": "en_image_926",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__926_fig2.png",
+    "source_sha256": "c7b5f49c0eb26348358d5f472ed224ec31be87790f316ac1dde043fc143e4166",
+    "released_png_sha256": "00e1736a88d5364bb683737f6c4cc898cc1912837b688321815ab663bc9058fd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_926_2.webp"
+  },
+  {
+    "uid": "en_image_932",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__932_fig1.png",
+    "source_sha256": "2ea86f3c2681785fdde661a943f8e69447a038f2badd2e8927a8a0e5928af58f",
+    "released_png_sha256": "a8495904440908b097562a0cfe3f1282ba286681ecac7ab374e970ea86f2c2dd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_932_1.webp"
+  },
+  {
+    "uid": "en_image_932",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__932_fig2.png",
+    "source_sha256": "5bf335b53fce8a169e28c55a6c1fab33293ecfa9e308d2b1c1b17f9928b869ab",
+    "released_png_sha256": "24796cfe99a272e83f95e1d98ef050ba8abe8844d749873c29fbdf47c5954e4e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_932_2.webp"
+  },
+  {
+    "uid": "en_image_945",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__945_fig1.png",
+    "source_sha256": "968dbb95cd11a1e7916db0e9e42bc48bb659964e101e1fb420dcc127e1030562",
+    "released_png_sha256": "d7427ee89f83057475da76651b5f3dede8d937362d096c634224485534188efc",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_945_1.webp"
+  },
+  {
+    "uid": "en_image_945",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__945_fig2.png",
+    "source_sha256": "dcd54d6b1fd4dc85ae2d8fc5f34d732ebcfe8b8e87f8cdd8dc02a197579a601d",
+    "released_png_sha256": "092079a30c9b8508493a6405c99d597bde6b29455fba5cae41b9d45d38248a77",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_945_2.webp"
+  },
+  {
+    "uid": "en_image_979",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__979_fig1.png",
+    "source_sha256": "15ecf3dec9e1242030a6769f34fdfd70704eb5333ba8be28ca84de838e5f03d0",
+    "released_png_sha256": "5fcacf5a0796775d95ecda0841aaaa310381c4ac95581e334105ad75623f42e7",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_979_1.webp"
+  },
+  {
+    "uid": "en_image_979",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__979_fig2.png",
+    "source_sha256": "ada5da7dc1e418d41ac9954e72be5a547106d971d7995b9fea22456d494e4f4d",
+    "released_png_sha256": "b3628cc35c5406cef6e54619d61c9ab9968b1e0990781a68cd59b7f13af32a79",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_979_2.webp"
+  },
+  {
+    "uid": "en_image_980",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__980_fig1.png",
+    "source_sha256": "d61333516a5596b8af735c5593a609838e76f81de96e74d6649441127f7ed2e8",
+    "released_png_sha256": "665b6b0c163342a804b2a7e918d2604c34e8582906b29dd62b55b02694faf456",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_980_1.webp"
+  },
+  {
+    "uid": "en_image_980",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__980_fig2.png",
+    "source_sha256": "576173e73b20d46bb3770136f1baad069001fc8bb927e4c1823e135aa3a99dd7",
+    "released_png_sha256": "ef32df46df489951657759880aa9bdb2e8d6e3514b34be687ddf591758d9207e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_980_2.webp"
+  },
+  {
+    "uid": "en_image_995",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__995_fig1.png",
+    "source_sha256": "fa3e4b82d896e90272ea6d0d97e5f2a6d67b37ebba4f656439ca48e5d4a77127",
+    "released_png_sha256": "67dfa66cc34f6c0dafe8f8baa7c00ed8a92c964dc92e542f79bee001fed52c25",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_995_1.webp"
+  },
+  {
+    "uid": "en_image_995",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__995_fig2.png",
+    "source_sha256": "efba215248455b0b6da97a634543eb2acb59211ffdafc07e295aa2ed81e67a1c",
+    "released_png_sha256": "f104e86e71715f384f5cb9f1ef723cc45a0d018645e1806869b530f8b70591cd",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_995_2.webp"
+  },
+  {
+    "uid": "en_image_1252",
+    "slot": 1,
+    "source_file": "benchmark_100/images/en_image__1252_fig1.png",
+    "source_sha256": "059f0a359bea1464177bb63ecc8b6bed09f972eecbb09b27891b7468e85857e3",
+    "released_png_sha256": "fb40aff09dfa2da4b7fa147e16648bb083ec051099c75914196779068ceb767e",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_1252_1.webp"
+  },
+  {
+    "uid": "en_image_1252",
+    "slot": 2,
+    "source_file": "benchmark_100/images/en_image__1252_fig2.png",
+    "source_sha256": "6454b43ea6a0741eae709ea67462c34ccfc04dabcd967814d282f7992603ee08",
+    "released_png_sha256": "68479e93f170d24cf9b6ccce07d0c0d50fe2433bed4ed9fe891ad30bb2e17202",
+    "released_dimensions": [
+      1024,
+      1024
+    ],
+    "preview": "assets/previews/en_image_1252_2.webp"
+  },
+  {
+    "uid": "zh_image_000002",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000002.png",
+    "source_sha256": "5e4b3475c0c745c2e987b896659b6ccea88e447f59bb96aac5c58e84e9d3e7b8",
+    "released_png_sha256": "2d8932018e00c77c34e778724a6c33aebb9d6da61a82bbeb4d6b7f213f37bcf7",
+    "released_dimensions": [
+      862,
+      1244
+    ],
+    "preview": "assets/previews/zh_image_000002_1.webp"
+  },
+  {
+    "uid": "zh_image_000003",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000003.png",
+    "source_sha256": "5187354bc3570d26a2d919989ecfbd3ac81d0ffc1daa1da82d8c0bcd6a7cecfe",
+    "released_png_sha256": "3b126eaa8bfddce89bb7aa79f8de7420b7efaaddf2cc99ed75cf7b3dccf1c6b6",
+    "released_dimensions": [
+      818,
+      1235
+    ],
+    "preview": "assets/previews/zh_image_000003_1.webp"
+  },
+  {
+    "uid": "zh_image_000004",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000004.png",
+    "source_sha256": "ae99c285f60568f60a0f5fe05eba9ccfe1ff1bf70bc6b335477c798331187f58",
+    "released_png_sha256": "578f52465c483aa63433deb7df26638c12779ab4d70d7a5a0abe37155444d002",
+    "released_dimensions": [
+      830,
+      1251
+    ],
+    "preview": "assets/previews/zh_image_000004_1.webp"
+  },
+  {
+    "uid": "zh_image_000005",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000005.png",
+    "source_sha256": "98ab48c4e2f594a03daf541c3c9549cb44a7c7bd25847ca3eed3e2901b429dfd",
+    "released_png_sha256": "7e3424e9d2159f7f12288d1203ba4ac742a017b90d5a535e2fb53db6634fd7f1",
+    "released_dimensions": [
+      735,
+      1193
+    ],
+    "preview": "assets/previews/zh_image_000005_1.webp"
+  },
+  {
+    "uid": "zh_image_000006",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000006.png",
+    "source_sha256": "9d7d715163912c88a7694a956de743c80c494c7594685a2a6e3163221bd0e015",
+    "released_png_sha256": "bf129f35c13e25669d2b6f988fb9ce3ec30ad59115e9c12cbcc956d983e8fa7d",
+    "released_dimensions": [
+      836,
+      1235
+    ],
+    "preview": "assets/previews/zh_image_000006_1.webp"
+  },
+  {
+    "uid": "zh_image_000007",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000007.png",
+    "source_sha256": "5b1f4edb4dca53b37366e45acd4f1a9d9b9055ec23842b9db6759f18dd68b7de",
+    "released_png_sha256": "4704ae645e76650a5206aa0fdd9350c5e9b82cddaa3b0808c659792ce39cb4c2",
+    "released_dimensions": [
+      883,
+      1346
+    ],
+    "preview": "assets/previews/zh_image_000007_1.webp"
+  },
+  {
+    "uid": "zh_image_000008",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000008.png",
+    "source_sha256": "07061426c92edc635d2a0a70da2054ce6f17d87a2f6b95d8c697941225ee6dee",
+    "released_png_sha256": "2d33264b152b7eb42ff189bcfca699fb21d8bebd1d3b03d85afa0b246e16e28c",
+    "released_dimensions": [
+      808,
+      1195
+    ],
+    "preview": "assets/previews/zh_image_000008_1.webp"
+  },
+  {
+    "uid": "zh_image_000009",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000009.png",
+    "source_sha256": "bb474f75d69bbe5dc3f3ada10fe035d14be850345b6d7ce9e50d6feaa7a0f988",
+    "released_png_sha256": "80694b7fb274dfd193581e69ddeb64c81aeeb5ee1619df06cef3d82f7758ab8b",
+    "released_dimensions": [
+      897,
+      1349
+    ],
+    "preview": "assets/previews/zh_image_000009_1.webp"
+  },
+  {
+    "uid": "zh_image_000010",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000010.png",
+    "source_sha256": "802fd33c905e1cd47e168f35caa3bfd0c7c113fdea30a80050184e6aef1a8d5e",
+    "released_png_sha256": "8726031ac970413cf0c05e041857c4f656f7d3675dff94a27484870c573632e4",
+    "released_dimensions": [
+      860,
+      1275
+    ],
+    "preview": "assets/previews/zh_image_000010_1.webp"
+  },
+  {
+    "uid": "zh_image_000011",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000011.png",
+    "source_sha256": "8c5ebc80d6dd82b401f5eab5b1da84d9b7ae018a7ed3fe7ab220a66f65b0ec9d",
+    "released_png_sha256": "94ce313afff197d7d917a228ff85e2b1e4c45d29e332b462d4bca2413e7e2a5f",
+    "released_dimensions": [
+      958,
+      1266
+    ],
+    "preview": "assets/previews/zh_image_000011_1.webp"
+  },
+  {
+    "uid": "zh_image_000012",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000012.png",
+    "source_sha256": "cca5e96de800acb6e2e68beb041ba1e51cfc389ba976fc29bc3e1c96186c0a36",
+    "released_png_sha256": "5dad330418b5c7acfcc3f1c34457afda973ee8dca97a433a0c88cf10f9c5386e",
+    "released_dimensions": [
+      826,
+      1208
+    ],
+    "preview": "assets/previews/zh_image_000012_1.webp"
+  },
+  {
+    "uid": "zh_image_000013",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000013.png",
+    "source_sha256": "bcf41a1ed3b92126119d33f3e311529f53866e7fb61091927e192f1414c3247a",
+    "released_png_sha256": "ca2fd2f9550cda31f9b271bb9dcfa86c2632b8a96db7dbede84dbe3d9937da21",
+    "released_dimensions": [
+      805,
+      1217
+    ],
+    "preview": "assets/previews/zh_image_000013_1.webp"
+  },
+  {
+    "uid": "zh_image_000014",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000014.png",
+    "source_sha256": "626c680f538d8b21d5baf1a45eb3cf6047be7c516cf050513aa1f995fa9ab3cc",
+    "released_png_sha256": "f26bb7eb6eeec3c3569f42b4b2d7c8784ddda9f0cba4f44ebf3a31c1e976b756",
+    "released_dimensions": [
+      792,
+      1244
+    ],
+    "preview": "assets/previews/zh_image_000014_1.webp"
+  },
+  {
+    "uid": "zh_image_000015",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000015.png",
+    "source_sha256": "cb37af03198aa367c15deda1c549f4db8ed9ce0fbc1e19c059047e031b703ab8",
+    "released_png_sha256": "acb319120fe8090a711aff52ff660c1988564509808bcbc755d2f74ddc6fe4e3",
+    "released_dimensions": [
+      822,
+      1223
+    ],
+    "preview": "assets/previews/zh_image_000015_1.webp"
+  },
+  {
+    "uid": "zh_image_000016",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000016.png",
+    "source_sha256": "62c2b6395f50181762a52d77366725b1b58d6280645af57ecccdb4a0464296da",
+    "released_png_sha256": "15523d52b09c96591a6145451b0058ea8200f0017fc959d26e6ddbfd3980d166",
+    "released_dimensions": [
+      822,
+      1224
+    ],
+    "preview": "assets/previews/zh_image_000016_1.webp"
+  },
+  {
+    "uid": "zh_image_000017",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000017.png",
+    "source_sha256": "724ae5f1d39489b0a106f50e5a1edce824791ea7cd4b17a0d057bb248f5800f4",
+    "released_png_sha256": "2db0fbbf0b944f85bb2f4477b531db86fffafe609080e1111a8dadfa3d2cc2c0",
+    "released_dimensions": [
+      849,
+      1267
+    ],
+    "preview": "assets/previews/zh_image_000017_1.webp"
+  },
+  {
+    "uid": "zh_image_000018",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000018.png",
+    "source_sha256": "dd62f4c816c325e66881dc9ae7f066d445c0c5d16073e61d98d843fa51cf69f0",
+    "released_png_sha256": "4f46119e5f6f58a7d231525294dc39259ac0f68e2b31cbcbefeb69aa7a7591af",
+    "released_dimensions": [
+      831,
+      1262
+    ],
+    "preview": "assets/previews/zh_image_000018_1.webp"
+  },
+  {
+    "uid": "zh_image_000019",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000019.png",
+    "source_sha256": "d0853d16d3fb2c09974f0b362e1a98c5804a6b18d5d67a2261d9669ffc8dfe61",
+    "released_png_sha256": "643139169a94546cc8271a206161c4f2ccb9108c534125b85a755b828859f347",
+    "released_dimensions": [
+      808,
+      1168
+    ],
+    "preview": "assets/previews/zh_image_000019_1.webp"
+  },
+  {
+    "uid": "zh_image_000020",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000020.png",
+    "source_sha256": "6d8882e657b06764e2221c922abc8858c7576877a090485949805f4ec40d4ffe",
+    "released_png_sha256": "7a9beb1f38e02c5a06b53da3b9e753aea139e464d77dab837692acb973cd4f0d",
+    "released_dimensions": [
+      775,
+      1262
+    ],
+    "preview": "assets/previews/zh_image_000020_1.webp"
+  },
+  {
+    "uid": "zh_image_000021",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000021.png",
+    "source_sha256": "9605c63432f7de74eed804051531c126ee1e4789e90e0dce8cf133715f9cc747",
+    "released_png_sha256": "1a049d3a535870d8d70d751df05015e7bf84dcf56811d31c22f42d1ee979dab9",
+    "released_dimensions": [
+      809,
+      1201
+    ],
+    "preview": "assets/previews/zh_image_000021_1.webp"
+  },
+  {
+    "uid": "zh_image_000022",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000022.png",
+    "source_sha256": "dc9cff84669307eb6f9daaac6748e765008c9e8705c96b287440da17e7989aab",
+    "released_png_sha256": "227aaea76ccf9815f788ddcf34eb2139ec741ef12cc103648e5bbaeeb101bc4e",
+    "released_dimensions": [
+      845,
+      1277
+    ],
+    "preview": "assets/previews/zh_image_000022_1.webp"
+  },
+  {
+    "uid": "zh_image_000023",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000023.png",
+    "source_sha256": "59b9945732859e89f209e5db7fd3f9d0025402b39524f6ba5e2c75021502095b",
+    "released_png_sha256": "f0fbd67548ce27bc7b9bb99f344ec6d26008caf91d301f63dad39ebc9e354f08",
+    "released_dimensions": [
+      820,
+      1232
+    ],
+    "preview": "assets/previews/zh_image_000023_1.webp"
+  },
+  {
+    "uid": "zh_image_000024",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000024.png",
+    "source_sha256": "7d31aa8cf0c72e5a8bda8dbc02f7e28cc37d8c6997f16e1e44a7a2c110430e05",
+    "released_png_sha256": "d37dca4ab68d92c17519fa8f784fde7685a93d623e8cdf2920faec11c87f2cc3",
+    "released_dimensions": [
+      877,
+      1244
+    ],
+    "preview": "assets/previews/zh_image_000024_1.webp"
+  },
+  {
+    "uid": "zh_image_000025",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000025.png",
+    "source_sha256": "9d95f514934f00d74bf711bde7efe6cfcde2baf5c3be40c9b70816db88bf80cf",
+    "released_png_sha256": "83fb17b6100e3f43a539ad3c5016b1de85f2c54affbaf05f74a671422d955bc7",
+    "released_dimensions": [
+      845,
+      1246
+    ],
+    "preview": "assets/previews/zh_image_000025_1.webp"
+  },
+  {
+    "uid": "zh_image_000026",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000026.png",
+    "source_sha256": "4d95ddc38b344f424a1c26ff9474cf4dc72cf73f5dbc1196f156d364dedf19fe",
+    "released_png_sha256": "d124c5ee8026a21417a2cf542ea9f5da8765587c0493dd361467383156849776",
+    "released_dimensions": [
+      839,
+      1291
+    ],
+    "preview": "assets/previews/zh_image_000026_1.webp"
+  },
+  {
+    "uid": "zh_image_000027",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000027.png",
+    "source_sha256": "7198b674166b4cc631bec5e26ac824f543322a27d86f5d897d33243ef014c87d",
+    "released_png_sha256": "0c87af4b35a14c0a61ac7f1085c58fd821eedd67cbba121e6a4daa0ad6a8925a",
+    "released_dimensions": [
+      813,
+      1181
+    ],
+    "preview": "assets/previews/zh_image_000027_1.webp"
+  },
+  {
+    "uid": "zh_image_000028",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000028.png",
+    "source_sha256": "6551661d0e2d0ef52bb068f8505c61ad2fd4381421024ca471523e7be5228569",
+    "released_png_sha256": "2cc39580d70fc6c2ec283abdabf2455a027b057d5362f8731dcaa4126cfbfe7e",
+    "released_dimensions": [
+      831,
+      1270
+    ],
+    "preview": "assets/previews/zh_image_000028_1.webp"
+  },
+  {
+    "uid": "zh_image_000029",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000029.png",
+    "source_sha256": "ceae3c801e681c6c8aba9db7faab4234b1f379f3adc2a761c9f4a7a99d83e1eb",
+    "released_png_sha256": "0295b41da74390b26c2a316750ddc834c11646d50d3028c8f9acec59ff953d77",
+    "released_dimensions": [
+      874,
+      1272
+    ],
+    "preview": "assets/previews/zh_image_000029_1.webp"
+  },
+  {
+    "uid": "zh_image_000030",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000030.png",
+    "source_sha256": "9558e3829e033007f3fdd5a6f7c885e9cef6a43e93fdb68f2b51698ca252d3ea",
+    "released_png_sha256": "f8cca16035ef49a2f990f8034de0ccadd07b5d352151c7e9072825866e662342",
+    "released_dimensions": [
+      829,
+      1219
+    ],
+    "preview": "assets/previews/zh_image_000030_1.webp"
+  },
+  {
+    "uid": "zh_image_000031",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000031.png",
+    "source_sha256": "232a97191f8f15741a3591c87156350812ce9536d37a7a8abfe6896e503308ec",
+    "released_png_sha256": "95fd613f1a877e5c44d128f1bbdc136d0624adb738a023d1bf9c178c15cca8f5",
+    "released_dimensions": [
+      840,
+      1231
+    ],
+    "preview": "assets/previews/zh_image_000031_1.webp"
+  },
+  {
+    "uid": "zh_image_000032",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000032.png",
+    "source_sha256": "b775292cee3138935afd7b9ea5049c2c08ec0292a69cc5f809050b40cec419b6",
+    "released_png_sha256": "4b8e69d82bf8436f30b73cb5a2bf8f112a1fd68c84c7f3f915ecf9a0555f378c",
+    "released_dimensions": [
+      849,
+      1271
+    ],
+    "preview": "assets/previews/zh_image_000032_1.webp"
+  },
+  {
+    "uid": "zh_image_000033",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000033.png",
+    "source_sha256": "c0a8797a50fdfe1297525312e9bfe1cf160169bee3faa0944dd30a491365f2a4",
+    "released_png_sha256": "50c4f6015d1cff9baf5c727ce91d036815bd2e340fc226d3522616546ac547eb",
+    "released_dimensions": [
+      831,
+      1327
+    ],
+    "preview": "assets/previews/zh_image_000033_1.webp"
+  },
+  {
+    "uid": "zh_image_000034",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000034.png",
+    "source_sha256": "e917a33ea5e97ad1173d90c4e5f365c3df572a69659dd7c99ab09065c43be26b",
+    "released_png_sha256": "116d746286de13e58ac5e57f884ff146b889c51d432c221fdc1041a5bb172d21",
+    "released_dimensions": [
+      855,
+      1261
+    ],
+    "preview": "assets/previews/zh_image_000034_1.webp"
+  },
+  {
+    "uid": "zh_image_000035",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000035.png",
+    "source_sha256": "aa6dd2305f496ef91a0be6ba9d649df0071e2aac569d6fe2c7d2dbf1010f3df4",
+    "released_png_sha256": "8740604589e94ec5b2aeef53eee046db66f9112dc7e4df717c0c5c7d61caac24",
+    "released_dimensions": [
+      873,
+      1256
+    ],
+    "preview": "assets/previews/zh_image_000035_1.webp"
+  },
+  {
+    "uid": "zh_image_000036",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000036.png",
+    "source_sha256": "7327e1b40b8e4ab65cf8c6c9bf27a3cc432c53de07d61efc1637a325a0def349",
+    "released_png_sha256": "65ca5f207a95bbc10cdc41a506a73e80aba6ca7d4e7e907240ce27c070c55623",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000036_1.webp"
+  },
+  {
+    "uid": "zh_image_000037",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000037.png",
+    "source_sha256": "eeb8f8bddc52091aab6130b827334b0343660bc48e1ab202f4c273c6db0be433",
+    "released_png_sha256": "090b8ebfb5b8e5ca47a04fc773e33f30ff0d74630d4d47159b8d46b6b54179f1",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000037_1.webp"
+  },
+  {
+    "uid": "zh_image_000038",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000038.png",
+    "source_sha256": "309ba31b9fa7e6f58682a2d343e049e6780bc80f821402430bf43fdda405a73e",
+    "released_png_sha256": "6d2679ddc328ae10e0e9db94e3e14652c7ad5cb0af35586978f542bca712f545",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000038_1.webp"
+  },
+  {
+    "uid": "zh_image_000039",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000039.png",
+    "source_sha256": "d8a654e09a2a307a9a7693139bb09a69d3c2af26546de32a0bb7f9d43a27359a",
+    "released_png_sha256": "57c3774be7458046a6d5693977b4fc9f388039124128bc69609a17c75693db81",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000039_1.webp"
+  },
+  {
+    "uid": "zh_image_000040",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000040.png",
+    "source_sha256": "695314d2861523c8f899992bc35bdfee0ea0459f12bdf651bd2d514257fecc92",
+    "released_png_sha256": "7342d8276fc77efb859691dab2b2cf8dfe8b7c05da27a7c1720d8a000ed45aa6",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000040_1.webp"
+  },
+  {
+    "uid": "zh_image_000041",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000041.png",
+    "source_sha256": "6b7cc125e2e39cb7127737237822821def11eb5d9f9121d94d0091671e810bcf",
+    "released_png_sha256": "2a6c43d13f339d9cd04399f1ba00cae9583f63d7cf8f6473acb4572dfe922f0f",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000041_1.webp"
+  },
+  {
+    "uid": "zh_image_000042",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000042.png",
+    "source_sha256": "6185b3286d9362e5efefa62a72d7b22c8d7e5672061703dc561f648ff354c69f",
+    "released_png_sha256": "5c5554b86126d9f5fcb13f5d9cae82de77a3fb5028bde115bb7067b2caaad87f",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000042_1.webp"
+  },
+  {
+    "uid": "zh_image_000043",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000043.png",
+    "source_sha256": "68b817a079a08d409f771b3b2304ca2dd2579232c9c2937a9e478f43448ccb13",
+    "released_png_sha256": "e2b046b09bea0b2f17522b5312ca6f9e838ebf7199f2f1cffb70a88bb270472a",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000043_1.webp"
+  },
+  {
+    "uid": "zh_image_000044",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000044.png",
+    "source_sha256": "53e8a9c7f20f045a2d88d23ea4b0088643d48876dfbeaa9b20f610e1f56cd8e6",
+    "released_png_sha256": "25e585251b14a2795ca322b92f965d314368c7d3e9a9188ff3f27f604488b3a1",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000044_1.webp"
+  },
+  {
+    "uid": "zh_image_000045",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000045.png",
+    "source_sha256": "d75d2b0778210eb82df1894834de8c3c585e513d6e327df5e964abf2dcc1bbce",
+    "released_png_sha256": "9193f41fe2f0345b7d6211fcbeab3f4ad54374583c5988fd64f07441e5359147",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000045_1.webp"
+  },
+  {
+    "uid": "zh_image_000046",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000046.png",
+    "source_sha256": "f04c0679ff79069f5f05b48efebe032ffdfa8977f20197a9515580598be8a379",
+    "released_png_sha256": "8b68562d693b93fc90aaf92e9564e524843e6d87c6a21b9826c68c6119e95682",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000046_1.webp"
+  },
+  {
+    "uid": "zh_image_000047",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000047.png",
+    "source_sha256": "f72c93a6e51c713cb091dce6db11b1acba499e398c4f7120c1166a3d63044f8b",
+    "released_png_sha256": "9a627e1ec75e78bc5a612403a207b43b81f7337c3dec3d24d33f701bf9012c72",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000047_1.webp"
+  },
+  {
+    "uid": "zh_image_000048",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000048.png",
+    "source_sha256": "c77560fd3183dbe3f48d6b9a01e030fbb981237a3ee43fc5c270e5df2d614b4e",
+    "released_png_sha256": "9301212b152c2db56815a659e2dda46b81cf4d53664fd15fe1d46939c9e39fbb",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000048_1.webp"
+  },
+  {
+    "uid": "zh_image_000049",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000049.png",
+    "source_sha256": "08b9ceda2727c8e61d901460299085cd5227cffb0da475433599d6c3948c6668",
+    "released_png_sha256": "59eb7d9a0258a7c6e44d20dc37c6280abaf1e52e3d678856afd4fe9b5d9a8863",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000049_1.webp"
+  },
+  {
+    "uid": "zh_image_000050",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000050.png",
+    "source_sha256": "8f7dcbe827ee1583dc863a4d42cc70d9e7855e023b045ee8db414ed3304f46a1",
+    "released_png_sha256": "2629696ad649d66dadb5bd0774c297f3f66be6f47849019700c71b51e2141a09",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000050_1.webp"
+  },
+  {
+    "uid": "zh_image_000051",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000051.png",
+    "source_sha256": "96d657c60b9776126a28c1d412d6d9f90fd4bb7b8a9dc448180ab631648170a0",
+    "released_png_sha256": "d65ab7871842a2ac1daf805f7814c5facc5d2b6b21f440bf6babe16cf7fd26b0",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000051_1.webp"
+  },
+  {
+    "uid": "zh_image_000052",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000052.png",
+    "source_sha256": "046381f81457703178f824927675a7ece2994182a992f92f762efd97433afa42",
+    "released_png_sha256": "35d5f327cf39e5b3eab293d7e7c1b5c5bfa36af1d63fb5d50fe4876585fe5216",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000052_1.webp"
+  },
+  {
+    "uid": "zh_image_000053",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000053.png",
+    "source_sha256": "8ef956eee21915aa3088e5ea000dd8c2870c50b8fa92be3fe81deb0fa7135d13",
+    "released_png_sha256": "cd0e2db90ddf693b66bdca801a982293d5d66733eb936d6fe3976c5b2771c824",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000053_1.webp"
+  },
+  {
+    "uid": "zh_image_000054",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000054.png",
+    "source_sha256": "c139dc1413654d1adf3a7f1a9aac9b6070a5841cd8c10afe7e0d9ca6abffeba4",
+    "released_png_sha256": "743ac791ca466e1ee21b9932e2e1f749ac7a78779df3c8314c1706c143f44cba",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000054_1.webp"
+  },
+  {
+    "uid": "zh_image_000055",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000055.png",
+    "source_sha256": "cb26a15e08f31ca8df04450ec8f3c7243d8ad22b1257d412e84c3406fc978a01",
+    "released_png_sha256": "8f7f443b1bdaeb7ad79a5ce2314e49498a6f136a2f56b62a6c0ce878a01815cf",
+    "released_dimensions": [
+      1080,
+      1620
+    ],
+    "preview": "assets/previews/zh_image_000055_1.webp"
+  },
+  {
+    "uid": "zh_image_000056",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000056.png",
+    "source_sha256": "2d1bb3d9077ea5f8f4ef6be1fc0106e6e5b7583ba138d08836a7e23eebc6a9b2",
+    "released_png_sha256": "baa62d3c37a747fd5e48f5a0951c2a365416326de7e7d8074cec0d60399b19e0",
+    "released_dimensions": [
+      801,
+      1241
+    ],
+    "preview": "assets/previews/zh_image_000056_1.webp"
+  },
+  {
+    "uid": "zh_image_000057",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000057.png",
+    "source_sha256": "0a5ebd3b50be2b05de6f7a9e51347db2e6784a65b446a36a9a93ddec86adee8c",
+    "released_png_sha256": "871fe11eac1b48d66d02546e2d80d25c0ac39be70cfe0db752be32ac358d7dc0",
+    "released_dimensions": [
+      788,
+      1282
+    ],
+    "preview": "assets/previews/zh_image_000057_1.webp"
+  },
+  {
+    "uid": "zh_image_000058",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000058.png",
+    "source_sha256": "5fd40e88d84389878f7aff819c6549b53a877df7c6c896be91dd2e35a0ad8ba7",
+    "released_png_sha256": "31bd493d3935ea053204b60bbdb4f11b8b94ae4268fd8103067331042e723b16",
+    "released_dimensions": [
+      829,
+      1182
+    ],
+    "preview": "assets/previews/zh_image_000058_1.webp"
+  },
+  {
+    "uid": "zh_image_000059",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000059.png",
+    "source_sha256": "34c60a37f7c138a43b485f152f8c59f5cbace0fd31e3d23d53df19a75709f274",
+    "released_png_sha256": "b65fb2704b05ffaea0daf625a4ccca1ae2e9ed670048f5963ee0eea3184c35cc",
+    "released_dimensions": [
+      856,
+      1286
+    ],
+    "preview": "assets/previews/zh_image_000059_1.webp"
+  },
+  {
+    "uid": "zh_image_000060",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000060.png",
+    "source_sha256": "91827830eb8f62ca77baf0e29e6d2bf75d1d776489296166a4f9cd972064306c",
+    "released_png_sha256": "8225db8bad69bcc8fc503658e10eff6e7ea067608f6c650984c0dc841b3a21ab",
+    "released_dimensions": [
+      868,
+      1280
+    ],
+    "preview": "assets/previews/zh_image_000060_1.webp"
+  },
+  {
+    "uid": "zh_image_000061",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000061.png",
+    "source_sha256": "608fb253d434f3f93db7175cba3a5e0f637defdf28da7dc9760d936e352cfaae",
+    "released_png_sha256": "6ba84a9937abd31cf6af62863e217d12c6af2936f4fa2ac1db4e6af05c5cbd0c",
+    "released_dimensions": [
+      861,
+      1319
+    ],
+    "preview": "assets/previews/zh_image_000061_1.webp"
+  },
+  {
+    "uid": "zh_image_000062",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000062.png",
+    "source_sha256": "2e6ad20d6bcdf1c9be456b4cad3046f919c506f06e379c30d6c754a239f05c0e",
+    "released_png_sha256": "ca89d8195314ed6d34d89d661a291dde0965fac582301172a8ff114db3b0e76e",
+    "released_dimensions": [
+      829,
+      1339
+    ],
+    "preview": "assets/previews/zh_image_000062_1.webp"
+  },
+  {
+    "uid": "zh_image_000063",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000063.png",
+    "source_sha256": "2a6cb8d51b266a68ba9789ef5c59a76b29624c8e5f54482033c01e388a3a3fa1",
+    "released_png_sha256": "e7149fc862dccf08fddc06af31d0016549db7ebf194c2a031a338ad8e4f037eb",
+    "released_dimensions": [
+      798,
+      1210
+    ],
+    "preview": "assets/previews/zh_image_000063_1.webp"
+  },
+  {
+    "uid": "zh_image_000064",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000064.png",
+    "source_sha256": "64c8a752e09b94c8e6dc19fdace678878ca2f27a7c3a7a9ed838f7a3fea6f5d8",
+    "released_png_sha256": "0cc9d58d22be4c68a820b246ca2d8c47f2072078f413a8640765968c2ba6f9a0",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000064_1.webp"
+  },
+  {
+    "uid": "zh_image_000065",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000065.png",
+    "source_sha256": "47ea8ab84daef93130ce095970679e6f0d5e0019b41630b8d4f75ca6fcc06336",
+    "released_png_sha256": "4175738712eefc8bf11e59236f4eacd6615976e07472b954bb1dadd5afef9960",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000065_1.webp"
+  },
+  {
+    "uid": "zh_image_000066",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000066.png",
+    "source_sha256": "04e606361b0880b41f683580f4640cf6b41944e9437b155d4383e426a0819038",
+    "released_png_sha256": "d7b7903801886ed75a80c8392ebf553b3c45f2474d86f437990ef4c61a21b71d",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000066_1.webp"
+  },
+  {
+    "uid": "zh_image_000067",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000067.png",
+    "source_sha256": "5df7f19805de624d7ccc4397e9e7db9f5b7fc703075e04312efee8c91b419bb2",
+    "released_png_sha256": "6fd659ced08b796256c770bdd309f2225db2edf472d219b35bead74149ea4c22",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000067_1.webp"
+  },
+  {
+    "uid": "zh_image_000068",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000068.png",
+    "source_sha256": "d3f5a85af1bb62e7ca863f85648a2c1a9cdb05d7b31e30e77e9d62581cebe65d",
+    "released_png_sha256": "9605b963fe6a55cd33e39f6a192c7bd598967cfd14183236d6b4756c12c9b620",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000068_1.webp"
+  },
+  {
+    "uid": "zh_image_000069",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000069.png",
+    "source_sha256": "d700a47d0e716f55131601aade7295de8e245178a73fc3b0303f86b9feb28952",
+    "released_png_sha256": "79207253e8335e1173c302a6f1ba514357b545d6513ee2efbe006501f51a47c7",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000069_1.webp"
+  },
+  {
+    "uid": "zh_image_000070",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000070.png",
+    "source_sha256": "c787bab8c536cf72f7322fe9e47affd04edf807bdf4b03be0a307a0c2449a9f4",
+    "released_png_sha256": "b2151858a7324c8f1c229467b6f60b46f04c8e9137116e0922eac3027a5d29eb",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000070_1.webp"
+  },
+  {
+    "uid": "zh_image_000071",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000071.png",
+    "source_sha256": "cfff0e04122a4d6072d269378b66ff96bc03ec51502db4088052c8114a05c98a",
+    "released_png_sha256": "7a9056c89e92a455fbee347524682330eb9809cabc386ef5fefb89c4a941b979",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000071_1.webp"
+  },
+  {
+    "uid": "zh_image_000072",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000072.png",
+    "source_sha256": "bc7680745f0b143f2ae47f5248d5315662bc3ff2283d8e3a6d722efb487afd87",
+    "released_png_sha256": "0a5c37cd57f4ccb70553469a02a12a6dfa583183d0ae2389f7047abaeeeb6cd1",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000072_1.webp"
+  },
+  {
+    "uid": "zh_image_000073",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000073.png",
+    "source_sha256": "8d25fb2f96d4b932ff9a238bdbf4f4418c6bf9cb39e1250d4500645c54839f6e",
+    "released_png_sha256": "acc3ee32f9339ec8910b3249f303d86548f32663714f9d69ff154e0f9112a7f6",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000073_1.webp"
+  },
+  {
+    "uid": "zh_image_000074",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000074.png",
+    "source_sha256": "8f3b614f23dbdf40c4a60c54e9cc779b326eace4a06db278d3f6250d04ae7f21",
+    "released_png_sha256": "6dce1a2d2503dc60ca18bfc355cf88bf8276e16d7388ea2babb2bef369656953",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000074_1.webp"
+  },
+  {
+    "uid": "zh_image_000075",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000075.png",
+    "source_sha256": "ef642be475bbc8b6b2e2d49504b933c71b40548ae5c8f4d09f8a8902f4f500d9",
+    "released_png_sha256": "553899618a607d8e9eeded1c7a46dc1c6fa522620ab804698be73c5d5d82bccf",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000075_1.webp"
+  },
+  {
+    "uid": "zh_image_000076",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000076.png",
+    "source_sha256": "8970a240f7c61d70a2573dc19224d75c166c21fa99cae06e0a20ab111589ac4b",
+    "released_png_sha256": "0ef688a28338a361f3e50cb61ca4944aa8b4a018f5665af45d4064a6a921e029",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000076_1.webp"
+  },
+  {
+    "uid": "zh_image_000077",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000077.png",
+    "source_sha256": "a03fc233216e19d74ad51300e1edb2f5023b48a1e043cd12bc1345a9f2d7e618",
+    "released_png_sha256": "8c462e2a49e0ff42181362f42e28b79a33eb59d822a59ba1aece1ef847f0451d",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000077_1.webp"
+  },
+  {
+    "uid": "zh_image_000078",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000078.png",
+    "source_sha256": "debe2eb47cc34f74ba1cbd6c45858187667fcea9517fbf895e3f15e0e4303f9e",
+    "released_png_sha256": "6803c7dac64505df838cc20d2e8f1c2d0e32b15a4a54ac8bb65c5274953fdcdc",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000078_1.webp"
+  },
+  {
+    "uid": "zh_image_000079",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000079.png",
+    "source_sha256": "b25e25e89966baf0180f8bc92f581ab7d81786490c9646b50953835e19f850d5",
+    "released_png_sha256": "d42b54e81a438cded5039835ceab6363bbeafc369e1f94a93edf4aa225608b81",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000079_1.webp"
+  },
+  {
+    "uid": "zh_image_000080",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000080.png",
+    "source_sha256": "c734afb0c74518579990ba7877c0cfbd0b549c063d62d68c9a8ad32cf1776e89",
+    "released_png_sha256": "66cf6613fb1763e62029826c81a534181290c970fed7d0a169920807214fd423",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000080_1.webp"
+  },
+  {
+    "uid": "zh_image_000081",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000081.png",
+    "source_sha256": "c3be9dc3502eca6fc40201109d29d665d28fe6135ad32ae431d377896980c7f5",
+    "released_png_sha256": "7a73df470a83fa1ec963bd980ada2d80185a6b9a75a67a1f48670fe151d2679c",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000081_1.webp"
+  },
+  {
+    "uid": "zh_image_000082",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000082.png",
+    "source_sha256": "c0b4b77d7444445e369e06026794470a7f37a7d80753170d47576b3c1bbac23c",
+    "released_png_sha256": "95d7be39337adc88985eaacda657f1867add1a8655996a6eecf68967123f00ee",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000082_1.webp"
+  },
+  {
+    "uid": "zh_image_000083",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000083.png",
+    "source_sha256": "fd6f115a1ed63208cea11a580a0430038683eab9dfa9413b30b6d35c83e2c802",
+    "released_png_sha256": "1751ee4fb0345b501c3887a47e05024c839084b2ad802820212997a5da17e48a",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000083_1.webp"
+  },
+  {
+    "uid": "zh_image_000084",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000084.png",
+    "source_sha256": "65b8c986b7a1a4472facdc9a5dbc293ff0c2c6e73c867fd433de8c3b66e6385c",
+    "released_png_sha256": "7908c721800e5fe7bf03b99e163c544483b39001257a9406f644d2cba1187b43",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000084_1.webp"
+  },
+  {
+    "uid": "zh_image_000085",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000085.png",
+    "source_sha256": "58728e6bc0a95dc949a2e7c5f949adb84a415a6bb9c6ee5c1fa08443868dee2d",
+    "released_png_sha256": "ba2bd7387a668df7d8800aa6e68b27f96e79ed79899c259f3bda9adc90069649",
+    "released_dimensions": [
+      1080,
+      1775
+    ],
+    "preview": "assets/previews/zh_image_000085_1.webp"
+  },
+  {
+    "uid": "zh_image_000086",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000086.png",
+    "source_sha256": "0d233d0c339f01fbc5fd8a03b4d017b9cc13b8d7a89d1ada742e0a84e5202145",
+    "released_png_sha256": "e90ff14d564a268f2e54566b84fe5429e9ac3a7cfbcfa0292618039dfb78a79e",
+    "released_dimensions": [
+      1080,
+      1837
+    ],
+    "preview": "assets/previews/zh_image_000086_1.webp"
+  },
+  {
+    "uid": "zh_image_000087",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000087.png",
+    "source_sha256": "e092223038d3b7e63256f299ea0a566a2b42cf8f8031923f879e192d3e771af6",
+    "released_png_sha256": "f08812e23361107c367829c5f3905d9721ae61785ea2ba4aa136f0aa1fa84bde",
+    "released_dimensions": [
+      1080,
+      1901
+    ],
+    "preview": "assets/previews/zh_image_000087_1.webp"
+  },
+  {
+    "uid": "zh_image_000088",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000088.png",
+    "source_sha256": "32ef56df2e2a2c1bbe6666dcda58fb60211479214cbb789e52ce12021806b1d4",
+    "released_png_sha256": "e58aaf78ab51cc6755295cba763e32174e5ca1100eb76d5d8f79f087a5600016",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000088_1.webp"
+  },
+  {
+    "uid": "zh_image_000089",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000089.png",
+    "source_sha256": "6df43d76a866367f5622d88e8d305c723198aa8251602e1a0664b1af6c88423c",
+    "released_png_sha256": "a06e6706d4e29a34d82eb9b61d60630d6a3770eb0d85487fe1813d40927ebb03",
+    "released_dimensions": [
+      1080,
+      1440
+    ],
+    "preview": "assets/previews/zh_image_000089_1.webp"
+  },
+  {
+    "uid": "zh_image_000090",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000090.png",
+    "source_sha256": "845f9f6534cb9ecf7762d470e09bd94dd1d1bd8076b3d670c8cabcd03c4218d1",
+    "released_png_sha256": "20962e773a25d593035b9b3df8d442d178658474471628deaf9e117a7776f39e",
+    "released_dimensions": [
+      1080,
+      1746
+    ],
+    "preview": "assets/previews/zh_image_000090_1.webp"
+  },
+  {
+    "uid": "zh_image_000091",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000091.png",
+    "source_sha256": "dc8e92495f19b7364ce1fc1a8995db522773269296896a5e6a8924a836e9ba61",
+    "released_png_sha256": "c5cab09f0bc093886359abc4307079be209292447ed9c1e30ea0deac46699a64",
+    "released_dimensions": [
+      1080,
+      1764
+    ],
+    "preview": "assets/previews/zh_image_000091_1.webp"
+  },
+  {
+    "uid": "zh_image_000092",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000092.png",
+    "source_sha256": "7ddb5317cf7043d5da8ffcb8a5212840bdb4b77f5c23c12f71c225d383c09861",
+    "released_png_sha256": "6feb43255e14a849546b9a25acd11499ad6a45d2c8615f6854014303245dc5a2",
+    "released_dimensions": [
+      1080,
+      1786
+    ],
+    "preview": "assets/previews/zh_image_000092_1.webp"
+  },
+  {
+    "uid": "zh_image_000093",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000093.png",
+    "source_sha256": "c8b3693230c12dcf1741da2dbd7fea31c12a6581babe991fb63e438af6fc29f5",
+    "released_png_sha256": "77158bd295ecb08351cc58d0ef988cd7bb35b5fe024b97865722c3029658db25",
+    "released_dimensions": [
+      1080,
+      2130
+    ],
+    "preview": "assets/previews/zh_image_000093_1.webp"
+  },
+  {
+    "uid": "zh_image_000094",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000094.png",
+    "source_sha256": "0f684b8ff49a12b7e137fd0887cf6cf842ed7e5ac242073b86907f409b55a547",
+    "released_png_sha256": "4db8def169e24948f4cd6f765b5fb1c2296987c55aadf6fcf8b69a35098ead53",
+    "released_dimensions": [
+      1080,
+      1859
+    ],
+    "preview": "assets/previews/zh_image_000094_1.webp"
+  },
+  {
+    "uid": "zh_image_000095",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000095.png",
+    "source_sha256": "e8d9239fc208c75c9b8e8a3216c7a7ef17a0772e514c705a7ed88aaa6a56ce83",
+    "released_png_sha256": "fca3804ad5b928472ebed597ba5b5b5bae682859e8ce2a02f2d7d528ed40a98d",
+    "released_dimensions": [
+      1080,
+      1920
+    ],
+    "preview": "assets/previews/zh_image_000095_1.webp"
+  },
+  {
+    "uid": "zh_image_000096",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000096.png",
+    "source_sha256": "1aa0375742506797604816f60bc35f2aed7b4ee81274d04a7c8d634a64a898f9",
+    "released_png_sha256": "5868838c50d83a1dcd8c8e8430abea6183a559fca7331562ef96b91b52efd5c4",
+    "released_dimensions": [
+      1071,
+      1920
+    ],
+    "preview": "assets/previews/zh_image_000096_1.webp"
+  },
+  {
+    "uid": "zh_image_000097",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000097.png",
+    "source_sha256": "885641556a1ed193f882552a34992a936feea65084ad03247a6d5ce27f2c4b81",
+    "released_png_sha256": "0fdc0884fc8066d5c716c16c34de8c00a211fb1286109202ced2fbe264cf9123",
+    "released_dimensions": [
+      1080,
+      1896
+    ],
+    "preview": "assets/previews/zh_image_000097_1.webp"
+  },
+  {
+    "uid": "zh_image_000098",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000098.png",
+    "source_sha256": "90e3b7bec4e206e881140e1ee280898da7e9b4eed59ce41146667d8fdf0a6043",
+    "released_png_sha256": "375097bd175749fb2022b216f2de4bc5a1f2584c644d125ff12380ba44cdf63b",
+    "released_dimensions": [
+      1080,
+      1851
+    ],
+    "preview": "assets/previews/zh_image_000098_1.webp"
+  },
+  {
+    "uid": "zh_image_000099",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000099.png",
+    "source_sha256": "8bcc8e686f70e31b42a6f04d0d8cf74c8bdeb95ca4032cd5b21e9949e0138eb5",
+    "released_png_sha256": "2bf7562f52c6edd8dd0cfe44f52a5d828dea036bae48ddbb21a613b1f25dcb85",
+    "released_dimensions": [
+      1080,
+      1659
+    ],
+    "preview": "assets/previews/zh_image_000099_1.webp"
+  },
+  {
+    "uid": "zh_image_000100",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000100.png",
+    "source_sha256": "81d7a630fccc03cd0fffc9fcbb92fdcd84f1b0f181e2be3866b8e3e1d93b81b1",
+    "released_png_sha256": "950ab4e68eafddccda97a1baf7dd2d63762806579a9ac58da36458b37d726328",
+    "released_dimensions": [
+      1080,
+      1699
+    ],
+    "preview": "assets/previews/zh_image_000100_1.webp"
+  },
+  {
+    "uid": "zh_image_000101",
+    "slot": 1,
+    "source_file": "benchmark_100/images/zh_image__000101.png",
+    "source_sha256": "f3219e887c610f2eb6d0417cfe022e94e897a02d093bf45560d41841953af3f1",
+    "released_png_sha256": "bd4bb1d6c12a5b79b05b6146f7f4adfcc98eb2db15b9a939cea73c515896ecd2",
+    "released_dimensions": [
+      1080,
+      1700
+    ],
+    "preview": "assets/previews/zh_image_000101_1.webp"
+  }
+]
