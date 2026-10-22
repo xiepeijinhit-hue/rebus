@@ -1,29 +1,118 @@
-# BiRebus
+<h1 align="center">🧩 BiRebus</h1>
 
-## Seeing Sounds, Missing Meanings
-### A Chinese–English Bilingual Benchmark for Visual Homophone Reasoning
+<h2 align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/">🚀 Visit the BiRebus Project Website</a>
+</h2>
+<p align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/"><strong>https://xiepeijinhit-hue.github.io/rebus/</strong></a><br>
+  <em>Explore the project · Try the puzzles · Browse the data</em>
+</p>
 
-**Peijin Xie · Jiayi Zhao · Xiaoxue Wang · Zhen Xu · Baoxun Wang · Bingquan Liu**
+<h3 align="center">Seeing Sounds, Missing Meanings</h3>
+<p align="center">
+  A Chinese–English Bilingual Benchmark for Visual Homophone Reasoning
+</p>
 
-Harbin Institute of Technology, ITNLP Lab · Tencent, Platform and Content Group, QQAI
+<p align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/"><img src="https://img.shields.io/badge/Project-Website-7160D6?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Project website"></a>
+  <a href="paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-394150?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" alt="Read the paper PDF"></a>
+  <a href="https://xiepeijinhit-hue.github.io/rebus/#explore"><img src="https://img.shields.io/badge/Data-Explorer-168A72?style=for-the-badge&amp;logo=databricks&amp;logoColor=white" alt="Interactive data explorer"></a>
+</p>
+<p align="center">
+  <a href="#paper-and-data"><img src="https://img.shields.io/badge/Hugging%20Face-Coming%20soon-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face dataset — public link coming soon"></a>
+  <a href="#paper-and-data"><img src="https://img.shields.io/badge/arXiv-Coming%20soon-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv — identifier not yet confirmed"></a>
+  <img src="https://img.shields.io/badge/Samples-400-7160D6?style=flat-square" alt="400 released samples">
+  <img src="https://img.shields.io/badge/Subsets-4-168A72?style=flat-square" alt="4 subsets">
+  <img src="https://img.shields.io/badge/Languages-EN%20%2F%20ZH-4D7BBC?style=flat-square" alt="English and Chinese">
+</p>
+<p align="center">
+  <a href="#examples">🎮 Examples</a> · <a href="docs/METHOD.md">🧠 Method</a> · <a href="docs/RESULTS.md">📊 Results</a> · <a href="docs/DATA_AUDIT.md">🔎 Data audit</a> · <a href="docs/RELEASE_CHECKLIST.md">📋 Release notes</a>
+</p>
 
-[🚀 Project website](https://xiepeijinhit-hue.github.io/rebus/) · [📄 Paper](paper.pdf) · [🧩 Data explorer](https://xiepeijinhit-hue.github.io/rebus/#explore) · [Method](docs/METHOD.md) · [Results](docs/RESULTS.md) · [Data audit](docs/DATA_AUDIT.md) · [Release checklist](docs/RELEASE_CHECKLIST.md)
+> 📦 **Partial diagnostic snapshot:** 400 available samples across four subsets, not the approximately 1,600 task instances described in the manuscript. Split correspondence, redistribution rights and experimental reproducibility require confirmation. See the audit before citing results or redistributing data.
 
-> **Release status: partial diagnostic snapshot.** This repository contains 400 available diagnostic samples, not the approximately 1,600 task instances described in the manuscript. The exact correspondence to the paper's human-reviewed split, data redistribution rights, and experimental reproducibility require author confirmation. See the audit before citing results or redistributing data.
-
-## What is BiRebus?
+## 💡 What is BiRebus?
 
 Visual homophone rebuses encode expressions through objects, attributes, counts, actions and relations whose names evoke similar-sounding words. A solver must connect **what it sees** with **how it names and pronounces the clues**, then compose a valid expression. This differs from literal image captioning.
 
-The paper contributes:
+| | Key idea |
+|---|---|
+| 🌏 **Bilingual & multimodal** | English and Chinese, emoji/symbol sequences and open-ended pictorial scenes. |
+| 🤝 **Agent–human construction** | Public-content collection or homophone decomposition, visual planning, image synthesis, iterative verification and human review. |
+| 🧠 **Structured reasoning** | Visual grounding → phonological imagination → composition and verification, without parameter updates or additional training data. |
 
-1. **A bilingual, two-format benchmark:** English and Chinese, emoji/symbol sequences and open-ended pictorial scenes.
-2. **An agent–human construction workflow:** public-content collection or homophone decomposition, visual planning, image synthesis, iterative verification and human review.
-3. **Structured Rebus Reasoning:** visual grounding → phonological imagination → composition and verification, without parameter updates or additional training data.
+The paper reports approximately 1,600 task instances, a balanced 400-example diagnostic split, a strongest direct-prompting VLM score of 58%, a human score of 63%, and aggregate improvement from 48% to 56%. **These are manuscript-reported claims, not independently reproduced numbers.** [📊 Results and discrepancies](docs/RESULTS.md) separate them from the available local evidence.
 
-The paper reports approximately 1,600 task instances, a balanced 400-example diagnostic split, a strongest direct-prompting VLM score of 58%, a human score of 63%, and aggregate improvement from 48% to 56%. **These are manuscript-reported claims, not independently reproduced numbers.** [Results and discrepancies](docs/RESULTS.md) separate them from the available local evidence.
+<a id="examples"></a>
 
-## Available data
+## 🎮 Try a few examples
+
+### 🖼️ English pictorial: what does figure 2 represent?
+
+**Sample:** `en_image_1` · **Figure 1 hint:** `leg start`
+
+> 图一是 **leg start**，图二是什么？
+
+<table>
+  <tr><th align="center">FIG 1 · the given clue</th><th align="center">FIG 2 · guess the expression</th></tr>
+  <tr>
+    <td align="center"><img src="assets/previews/en_image_1_1.webp" width="300" alt="Figure 1: an arrow points to the top of a leg; hint: leg start"></td>
+    <td align="center"><img src="assets/previews/en_image_1_2.webp" width="300" alt="Figure 2: the arrow moves to the foot at the end of the leg"></td>
+  </tr>
+</table>
+
+<details>
+<summary>👀 Reveal the reference answer</summary>
+
+**legend** — the second picture points to the **leg end**; reading the clue together suggests *legend*.
+
+</details>
+
+### 💬 Chinese emoji: 猜一个成语
+
+**Sample:** `zh_emoji_9`
+
+<h3 align="center">✋ 🐷 👜 🐇</h3>
+
+<details>
+<summary>👀 查看参考答案</summary>
+
+**守株待兔**。Consider alternative names and near-homophones rather than only the literal objects.
+
+</details>
+
+### 🎨 Chinese pictorial: 这张图表示什么？
+
+**Sample:** `zh_image_000002`
+
+<p align="center"><img src="assets/previews/zh_image_000002_1.webp" width="360" alt="Chinese pictorial rebus, sample zh_image_000002"></p>
+
+<details>
+<summary>👀 查看参考答案</summary>
+
+**充电宝**
+
+</details>
+
+These examples use the published snapshot's images and inherited references; they are not newly adjudicated labels. Images shown here are display previews.
+
+<p align="center"><a href="https://xiepeijinhit-hue.github.io/rebus/#explore"><strong>🚀 Explore all 400 puzzles on the project website →</strong></a></p>
+
+<a id="paper-and-data"></a>
+
+## 📄 Paper & 🤗 dataset availability
+
+| Resource | Status | Access |
+|---|---|---|
+| 🚀 Project website | Online | [Open the project page](https://xiepeijinhit-hue.github.io/rebus/) |
+| 📄 Manuscript | Available in this repository | [Read the PDF](paper.pdf) |
+| <img src="https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="arXiv"> | Identifier / public link not yet confirmed | Use the manuscript PDF for now |
+| 🤗 Hugging Face | Full-resolution package prepared locally; not yet published | Public dataset link coming soon; [rights and access notes](docs/RIGHTS.md) |
+| 🧩 Snapshot annotations & previews | 400 samples · 4 subsets · 300 images | [Browse data files](data/) · [Interactive explorer](https://xiepeijinhit-hue.github.io/rebus/#explore) |
+
+The Hugging Face and arXiv badges are status indicators, not links to unverified repositories or submissions.
+
+## 🗂️ Available data
 
 | Configuration | Paper shorthand | Answer language | Input | Released rows | Images |
 |---|---|---|---|---:|---:|
@@ -43,7 +132,7 @@ Only a `test` split is packaged. IDs are namespaced (`en_image_1`, `zh_image_000
 
 No user names, answer-session logs, editor identities, credentials, internal endpoints, caches or raw model reasoning traces are included. Reference answers are preserved, not silently corrected. Their correctness and clue quality are not newly human-verified.
 
-## Browse locally
+## 🚀 Browse locally
 
 No Node build, cloud account, model API or server dependencies are needed. From this repository:
 
@@ -51,11 +140,11 @@ No Node build, cloud account, model API or server dependencies are needed. From 
 python3 -m http.server 3010 --bind 127.0.0.1
 ```
 
-Open `http://localhost:3010/`, or visit the [🚀 project website](https://xiepeijinhit-hue.github.io/rebus/). The project page includes an emoji wordplay demo, paper and author information, the three-stage method, result charts with separate manuscript/audit views, and copyable citation metadata. The data explorer supports all four subsets, clue/ID search, image-count filters, pagination, image zoom, per-card answer reveal and filtered JSON download.
+Open `http://localhost:3010/`, or visit the [🚀 project website](https://xiepeijinhit-hue.github.io/rebus/). The project page includes an emoji wordplay demo, the paper overview, the three-stage method, result charts with separate manuscript/audit views, and copyable citation metadata. The data explorer supports all four subsets, clue/ID search, image-count filters, pagination, image zoom, per-card answer reveal and filtered JSON download.
 
 The page is read-only and collects no responses. Answers are present in downloadable JSON; the reveal button is a convenience, **not secure exam protection**. Do not use preview images for benchmark scores. GitHub Pages serves the repository root from `main`; `.nojekyll` preserves the static assets unchanged, and relative paths support `/rebus/`. Future pushes to `main` update the site automatically. Publishing the page does not resolve the rights or experimental limitations documented in the release checklist.
 
-## Load and score data
+## 📥 Load and score data
 
 JSON annotations require only Python's standard library:
 
@@ -74,7 +163,7 @@ python3 tools/score.py --data-dir data --predictions predictions.jsonl --output 
 
 It reports reference-normalized strict accuracy over **all expected items** and success-conditioned accuracy separately. Missing, empty and failed outputs receive no end-to-end credit. Duplicate/unknown IDs are rejected. It does not call a model or read credentials.
 
-## Method and evidence
+## 🧠 Method and evidence
 
 - [METHOD.md](docs/METHOD.md): paper construction workflow, structured prompt templates, historical implementation caveats.
 - [RESULTS.md](docs/RESULTS.md): paper tables, fixed-denominator local checks and interpretation limits.
@@ -101,8 +190,8 @@ python3 tools/build_release.py --source-root /path/to/original-workspace --githu
 
 It packages the frozen `benchmark_100`, strips image metadata, audits historical results and refuses to overwrite an existing release manifest. It does not regenerate site source, docs or a missing paper. Original annotations are never changed.
 
-## Citation and rights
+## 📚 Citation and rights
 
-Use [CITATION.cff](CITATION.cff) for the manuscript title and authors. No DOI, conference, publication date or Hugging Face URL has been fabricated. The repository URL printed in the manuscript is `https://github.com/xiepeijinhit-hue/rebus`; its remote publication status has not been checked.
+Use [CITATION.cff](CITATION.cff) for the manuscript's citation metadata. No DOI, conference, publication date, arXiv identifier or Hugging Face dataset URL is asserted without confirmation. The public repository is [xiepeijinhit-hue/rebus](https://github.com/xiepeijinhit-hue/rebus).
 
 **No blanket data license is asserted.** A development package's MIT declaration is insufficient to license collected images, emoji renderings, generated images or the paper. Review [RIGHTS.md](docs/RIGHTS.md) and [RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) before public upload. This package is structurally prepared, not a legal clearance certificate.
