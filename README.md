@@ -26,8 +26,13 @@
   <img src="https://img.shields.io/badge/Languages-EN%20%2F%20ZH-4D7BBC?style=flat-square" alt="English and Chinese">
 </p>
 <p align="center">
-  <a href="#examples">🎮 Examples</a> · <a href="docs/METHOD.md">🧠 Method</a> · <a href="docs/RESULTS.md">📊 Results</a> · <a href="docs/DATA_AUDIT.md">🔎 Data audit</a> · <a href="docs/RELEASE_CHECKLIST.md">📋 Release notes</a>
+  <a href="#paper-figures">🎨 Paper figures</a> · <a href="#examples">🎮 Examples</a> · <a href="docs/METHOD.md">🧠 Method</a> · <a href="docs/RESULTS.md">📊 Results</a> · <a href="docs/DATA_AUDIT.md">🔎 Data audit</a> · <a href="docs/RELEASE_CHECKLIST.md">📋 Release notes</a>
 </p>
+
+<p align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig1-examples.png"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig1-examples.png" width="920" alt="Paper Figure 1: representative English and Chinese emoji and pictorial rebuses"></a>
+</p>
+<p align="center"><sub>🌏 <strong>Figure 1 · A glimpse of BiRebus.</strong> Symbols, scenes and sound-based wordplay across English and Chinese.<br>Cropped from <a href="paper.pdf#page=1">the manuscript, page 1</a> · Click the image to enlarge.</sub></p>
 
 > 📦 **Partial diagnostic snapshot:** 400 available samples across four subsets, not the approximately 1,600 task instances described in the manuscript. Split correspondence, redistribution rights and experimental reproducibility require confirmation. See the audit before citing results or redistributing data.
 
@@ -43,6 +48,28 @@ Visual homophone rebuses encode expressions through objects, attributes, counts,
 
 The paper reports approximately 1,600 task instances, a balanced 400-example diagnostic split, a strongest direct-prompting VLM score of 58%, a human score of 63%, and aggregate improvement from 48% to 56%. **These are manuscript-reported claims, not independently reproduced numbers.** [📊 Results and discrepancies](docs/RESULTS.md) separate them from the available local evidence.
 
+<a id="paper-figures"></a>
+
+## 🎨 The paper at a glance
+
+### 🤝 From visual clues to a bilingual benchmark
+
+<p align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig2-pipeline.png"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig2-pipeline.png" width="820" alt="Paper Figure 2: public-rebus collection and target-expression synthesis, followed by critic-agent checks and human verification"></a>
+</p>
+<p align="center"><sub><strong>Figure 2 · Construction pipeline.</strong> Collection and synthesis meet iterative verification and human review.<br>Cropped from <a href="paper.pdf#page=2">the manuscript, page 2</a> · Click to enlarge.</sub></p>
+
+### 🧠 See the clues. Imagine the sounds. Verify the answer.
+
+<p align="center">
+  <a href="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig3-reasoning.png"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/paper-fig3-reasoning.png" width="920" alt="Paper Figure 3: visual grounding and phonological imagination turn eye plus scream into ice cream, followed by clue verification"></a>
+</p>
+<p align="center"><sub><strong>Figure 3 · Structured Rebus Reasoning.</strong> Visual grounding → phonological imagination → composition and verification.<br>Cropped from <a href="paper.pdf#page=3">the manuscript, page 3</a> · Click to enlarge.</sub></p>
+
+These figures illustrate the supplied manuscript; they are not additional benchmark samples or independent verification of the construction pipeline. See [method notes](docs/METHOD.md) for implementation scope and limitations.
+
+---
+
 <a id="examples"></a>
 
 ## 🎮 Try a few examples
@@ -56,8 +83,8 @@ The paper reports approximately 1,600 task instances, a balanced 400-example dia
 <table>
   <tr><th align="center">FIG 1 · the given clue</th><th align="center">FIG 2 · guess the expression</th></tr>
   <tr>
-    <td align="center"><img src="assets/previews/en_image_1_1.webp" width="300" alt="Figure 1: an arrow points to the top of a leg; hint: leg start"></td>
-    <td align="center"><img src="assets/previews/en_image_1_2.webp" width="300" alt="Figure 2: the arrow moves to the foot at the end of the leg"></td>
+    <td align="center"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/en_image_1_1.png" width="300" alt="Figure 1: an arrow points to the top of a leg; hint: leg start"></td>
+    <td align="center"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/en_image_1_2.png" width="300" alt="Figure 2: the arrow moves to the foot at the end of the leg"></td>
   </tr>
 </table>
 
@@ -85,7 +112,7 @@ The paper reports approximately 1,600 task instances, a balanced 400-example dia
 
 **Sample:** `zh_image_000002`
 
-<p align="center"><img src="assets/previews/zh_image_000002_1.webp" width="360" alt="Chinese pictorial rebus, sample zh_image_000002"></p>
+<p align="center"><img src="https://xiepeijinhit-hue.github.io/rebus/assets/readme/zh_image_000002_1.png" width="360" alt="Chinese pictorial rebus, sample zh_image_000002"></p>
 
 <details>
 <summary>👀 查看参考答案</summary>
@@ -125,7 +152,8 @@ The Hugging Face and arXiv badges are status indicators, not links to unverified
 Only a `test` split is packaged. IDs are namespaced (`en_image_1`, `zh_image_000002`); leading zeros are preserved. English emoji and pictorial tasks may share source IDs and answers; do not split them randomly into train/test and assume independence.
 
 - `data/*.json`: sanitized annotations for every released sample. Pictorial inputs do **not** include their source emoji, explanations or model predictions.
-- `assets/previews/`: metadata-stripped, maximum-960-pixel WebP **display previews**, not lossless evaluation images.
+- `assets/previews/`: metadata-stripped, maximum-960-pixel WebP **display previews** for the project website, not lossless evaluation images.
+- `assets/readme/`: PNG copies of the README examples and high-resolution crops of Figures 1–3 from `paper.pdf`. These are display assets, not extra dataset records or higher-quality evaluation inputs.
 - `data/release.json`: counts, source checksums, artifact checksums and release status.
 - `data/image_manifest.json`: per-image source checksum, released PNG checksum and preview mapping.
 - The separately prepared **Hugging Face directory** contains the same 400 rows with full-resolution, metadata-stripped lossless PNG bytes embedded in Parquet. It is the image-bearing evaluation package. Its future repository identifier is intentionally not guessed here.
