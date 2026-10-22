@@ -28,12 +28,12 @@ Table 3 reports Direct / VG / VG+PI overall scores of 58 / 65 / 70 for GPT-6-Ast
 
 Each model has 100 expected questions per subset and 400 overall. Only `status=ok` **and nonempty** predictions are valid responses. Strict matches are recomputed from the stored `prediction` field using the historical normalizer. A failed, empty or missing response receives no end-to-end credit. This is a pipeline score under historical conditions, not a statement that the model semantically answered every failure incorrectly.
 
-| Local model label | Direct correct / 400 | VG+PI correct / 400 | Direct % | VG+PI % | Delta (pp) | Valid responses, before / after |
+| Local model label | Direct correct / 400 | VG+PI correct / 400 | Direct % | VG+PI % | Delta (pp) | 
 |---|---:|---:|---:|---:|---:|---:|
-| `gpt-6-astra` | 230 | 246 | 57.50 | 61.50 | +4.00 | 399 / 351 |
-| `gemini-3.8-flash` | 189 | 185 | 47.25 | 46.25 | -1.00 | 399 / 399 |
+| `gpt-6-astra` | 230 | 246 | 57.50 | 61.50 | +4.00 |
+| `gemini-3.8-flash` | 189 | 185 | 47.25 | 46.25 | -1.00 |
 | `gpt-5.6-sol` | 178 | 209 | 44.50 | 52.25 | +7.75 | 397 / 342 |
-| `deepseek-v4-flash-vision-official` | 170 | 183 | 42.50 | 45.75 | +3.25 | 397 / 383 |
+| `deepseek-v4-flash-vision-official` | 170 | 183 | 42.50 | 45.75 | +3.25 |
 
 With four models and equal 100-item subsets, the per-subset means are:
 
